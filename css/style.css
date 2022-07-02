@@ -1,0 +1,17 @@
+@import "../css/global.css";
+@import "../css/header.css";
+@import "../css/introducao.css";
+@import "../css/experiencia.css";
+@import "../css/formacao.css";
+@import "../css/footer.css";
+
+/* ATENÇÃO, ESSA FORMA AQUI DE LINKAR MEUS ARQUIVOS.CSS NÃO É O IDEAL, POIS O SITE VAI CARREGAR TODOS ARQUIVOS DE IMAGENS ANTES DOS MEUS ARQUIVOS CSS, ISSO PARA QUEM TEM A INTERNET LENTA, É UM PESADELO! USei ESSA MANEIRA SÓ PARA CODAR MELHOR, AO TERMINAR O SITE COMPLETO, ANTES DE COLOCAR O SITE NO AR, FORMATE AQUI!
+terminal:
+cs css >>p entrar na pasta css
+cleancss -o style.min.css style.css
+DAI VAI CRIAR UM AQUIVO CHAMADO style.min.css, ELE É SUA VERSÃO JÁ TOTALMENTE OTIMIZADA!
+
+DEPOIS QUE GRAR O ARQUIVO style.min.css, VC VAI TER QUE COLOCAR ELE LÁ NO HTML NO LUGAR DO STYLE.CSS <link rel="stylesheet" href="../css/style.css">
+FICARIA <link rel="stylesheet" href="../css/style.min.css">
+
+*/

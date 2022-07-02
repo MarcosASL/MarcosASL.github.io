@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Curriculo</title>
+  <meta name="description" content="Desenvolvedor Front End & UX/UI Designer, localizado no Rio de Janeiro">
+</head>
+
+<body>
+
+  <header class="header">
+    <img src="../img/marca.svg" alt="" width="104" height="38">
+    <nav>
+      <ul class="header-menu">
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <!-- ao clicar aqui em cada elemento acima ele direciona para a area especifica onde terá o seu id -->
+      </ul>
+    </nav>
+  </header>
+  <main class="introducao">
+    <img src="../img/perfil.jpg" alt="foto do lobo" width="360" height="520">
+    <div>
+      <h1>Desenvolvedor<br> Front End & <br>UX/UI Designer</h1>
+      <p>Localizado No Rio de Janeiro</p>
+    </div>
+  </main>
+
+
+  <section class="experiencia" id="experiencia" aria-label="Experiência">
+    <h2 class="subtitulo">Experiência</h2>
+    <div>
+      <p class="experiencia-texto">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Para aplicativos web como a rede social Dogs eu trabalhei no <strong>UX</strong> e <strong>UI Design</strong> do projeto.</p>
+
+      <div class="empresa">
+        <span class="empresa-ano">2022</span>
+        <h3 class="empresa-titulo">Bikecraf</h3>
+        <span class="empresa-titulo">Empresa Fictícia</span>
+        <p class="empresa-texto">Uma empresa que vende bicicletas personalizadas feitas sob medida, onde desenvolvemos conceitos como HTML semântico, otimização de imagens e arquivos CSS, SEO e utilização do Google Analytics.</p>
+
+        <ul class="empresa-habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>UX Designer</li>
+          <li>UI Designer</li>
+        </ul>
+      </div>
+
+      <div class="empresa">
+        <span class="empresa-ano">2021-2022</span>
+        <h3 class="empresa-titulo">Surfbot</h3>
+        <span class="empresa-titulo">Empresa Fictícia</span>
+        <p class="empresa-texto">Surfbot é uma empresa fictícia que oferece aulas de surf para crianças, adultos e profissionais. Este é um projeto apresentado no curso "UI Design Avançado" da Origamid.</p>
+
+        <ul class="empresa-habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>UX Designer</li>
+          <li>UI Designer</li>
+        </ul>
+      </div>
+
+      <div class="empresa">
+        <span class="empresa-ano">2022</span>
+        <h3 class="empresa-titulo">Brafé</h3>
+        <span class="empresa-titulo">Empresa Fictícia</span>
+        <p class="empresa-texto">O projeto Brafé foi desenvolvido durante o curso de CSS Avançado Posicionamento da Origamid. Foram desenvolvidas três páginas diferentes, cada uma delas de quatro formas diferentes</p>
+
+        <ul class="empresa-habilidades">
+          <li>CSS</li>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>UX Designer</li>
+          <li>UI Designer</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+  <section class="formacao" id="formacao" aria-label="Formação">
+    <!-- tive que criar uma div p manter os conteúdos aqui no 1200px, que já foi definido lá atrás, vai ter o grid e tudo mais! MAS A SECTION VAI PINTAR O FUNDO DE PRETO QUE QUEREMOS E VAI CRESCER INFINITAMENTE P O LADO -->
+    <div class="formacao-container">
+      <h2 class="subtitulo">Formação</h2>
+      <div>
+        <p class="formacao-texto">
+          Estou cursando o <strong>7°</strong> periodo em <strong>Sistemas de Informação</strong>. Além disso me mantenho sempre atualizado com cursos intensivos online e Realizando alguns projetos.
+        </p>
+        <ul class="faculdade-lista">
+          <li class="faculdade">
+            <span class="faculdade-tipo">Bacharel</span>
+            <h3 class="faculdade-curso">Sistemas de informação</h3>
+            <span class="faculdade-instituicao">UNESA</span>
+          </li>
+          <li class="faculdade">
+            <span class="faculdade-tipo">Técnico</span>
+            <h3 class="faculdade-curso">Técnico em <br> Informática</h3>
+            <span class="faculdade-instituicao">Microcamp</span>
+          </li>
+          <li class="faculdade">
+            <span class="faculdade-tipo">Técnico</span>
+            <h3 class="faculdade-curso">Técnico em Manutenção</h3>
+            <span class="faculdade-instituicao">Microlins</span>
+          </li>
+        </ul>
+        <div class="formacao-extra">
+          <div class="cursos">
+            <h3>Cursos Intensivos</h3>
+            <ul>
+              <li>UX Design & UI Design</li>
+              <li>HTML e CSS para Iniciantes</li>
+              <li>JavaScript ES6 <span>/em progresso</span></li>
+              <li>React <span>/em progresso</span></li>
+              <li>WordPress<span>/em progresso</span></li>
+              <li>WooCommerce<span>/em progresso</span></li>
+            </ul>
+          </div>
+
+          <div class="idiomas">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Inglês <span>/Intermediário</span></li>
+              <li>Espanhol <span>/básico</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contato">
+    <div class="footer-container">
+      <p class="footer-texto">Estou disponível para Estágios. Entre em contato comigo e marcamos uma conversa 👋</p>
+      <ul class="footer-contato">
+        <li>Mark.asl@hotmail.com</li>
+        <li>+55 21 99389-8536</li>
+        <li> <a href="https://github.com/MarcosASL"> github.com/MarcosASL</a> </li>
+        <li> <a href="https://www.linkedin.com/in/marcosasl/">linkedin.com/in/MarcosASL</a> </li>
+      </ul>
+      <p class="footer-copy">Marcos. Alguns direitos reservados</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+.formacao {
+  background: #141414;
+  color: #ffffff;
+}
+
+.formacao-container {
+  max-width: 1200px;
+  padding: 120px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr; /*aqui é 2fr para ficar alinhado ao texto de cima de h1*/
+  gap: 100px;
+  position: relative;
+}
+
+.formacao-container::after {
+  /*DETALHE em VERDE*/
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../img/detalhe.svg") no-repeat center;
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+}
+
+.formacao .subtitulo {
+  color: #000000;
+  max-width: 5ch; /*distancia de 5 caracteres no 'FORMAÇÃO'*/
+}
+
+.formacao-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  margin-bottom: 60px;
+  max-width: 40ch; /*defini o tamanho maximo dele de 40 caracteres, a linha desse texto vai ter 40caracteres!*/
+  color: #a3a3a3;
+}
+
+.formacao-texto strong {
+  color: #ffffff;
+}
+
+.faculdade-lista {
+  display: flex; /*p ficar em linha */
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.faculdade {
+  flex: 1; /*POR PADRÃO SE O ELEMENTO N FOR FLEX, O CONTAINER VAI TENTAR TER O TAMANHO MÁXIMO DO CONTEUDO QUE TEM DENTRO DELE, SE FOR UM TEXTO MTO GRANDE, ELE VAI SE EXPANDIR BASTANTE, PARA O CONTEUDO FICAR CERTINHO UM DO LADO DO OUTRO E DO MESMO TAMANHO USEI O FLEX: 1*/
+  background: #000000;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column; /*SEM ELE O MEU CONTAINER COM OS TEXTOS ACABAM ESTOURANDO O LAYOUT ATÉ O FINAL P CABER O CONTEUDO DENTRO!*/
+}
+
+.faculdade-tipo {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  margin-bottom: 10px; /*a principio n aplicou o margin-bototom, pq ele é um SPAN!, POR ISSO MUDEI ALI EM CIMA PARA DISPLAY:FLEX*/
+}
+
+.faculdade-curso {
+  flex: 1; /*AQUI FALEI QUE É P MEU ELEMENTO QUE É O 'nome do curso' CRESCER O MÁXIMO QUE É P ELE CRESCER, ENTÃO ELE JOGA O ITEM 'instituição' que é o nome das faculdades, sempre para baixo, pois o nome do curso extá crescendo o máximo no container, ai a faculdade fica sempre no rodape do container! */
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  position: relative; /*P MEU DETALHE VERDE*/
+}
+
+.faculdade-curso::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute; /*meu elemento verde agora saiu do fluxo e está relativo ao.faculdade-curso*/
+  top: 20px;
+  left: -24px;
+}
+
+.faculdade-instituicao {
+  font-size: 1.125rem;
+  color: #a3a3a3;
+}
+
+.cursos {
+  margin-bottom: 60px;
+}
+
+.formacao-extra h3 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+.formacao-extra h3::before {
+  display: block;
+  content: "";
+  width: 24px; /*24 pq é o tamanho exato de cada icone  que vou usar aqui*/
+  height: 24px;
+  background: url("../img/cursos.svg") no-repeat center center;
+  position: absolute; /*absolut e vai ficar relativo ao .formacao-extra lá em cima!*/
+  left: -36px;
+  top: -4px;
+}
+
+.cursos h3::before {
+  background: url("../img/cursos.svg") no-repeat center center;
+}
+
+.idiomas h3::before {
+  background: url("../img/idiomas.svg") no-repeat center center;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+.formacao-extra li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.formacao-extra span {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+.cursos ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* ----------------------------------------------------responsivo-------------------------------------------------- */
+@media (max-width: 800px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  .formacao .subtitulo {
+    color: #ffffff;
+  }
+  .formacao-texto {
+    font-size: 1.125rem;
+  }
+  /*os meus icones  e letras em cursos estavam saindo da tela, usei esse before e position inicial p voltarem*/
+  .formacao-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1145px) {
+  .cursos ul {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    gap: 44px;
+  }
+}

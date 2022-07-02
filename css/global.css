@@ -1,0 +1,47 @@
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  color: #141414;
+  /* margin-bottom: 1000px; */
+  /*usei só p ver melhora enquanto fazia o site, ao finalizar posso tirar!*/
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.subtitulo {
+  /* titulo 'EXPERIENCIA'*/
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize; /*só aumenta a primeira letra*/
+    max-width: initial !important;
+  }
+}

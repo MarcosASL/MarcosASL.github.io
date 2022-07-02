@@ -1,0 +1,110 @@
+.experiencia {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr; /*aqui é 2fr para ficar alinhado ao texto de cima de h1*/
+  gap: 100px;
+}
+.experiencia .subtitulo {
+  color: #e0e0e0;
+}
+
+.experiencia-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  margin-bottom: 60px;
+  max-width: 40ch; /*defini o tamanho maximo dele de 40 caracteres*/
+  color: #525252;
+}
+
+.experiencia-texto strong {
+  color: #141414;
+}
+
+.empresa {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*dividi o conteudo de .empresa que é todo (conteudo das listas) em 2 colunas*/
+  gap: 10px 20px; /*10px vertical e 20 horizontal*/
+  padding: 20px;
+  background: #f5f5f5;
+  margin-bottom: 20px; /*desgrudar os rodapés dos itens em 20px*/
+  border-radius: 4px;
+  position: relative; /*a minha .empresa-ano vai estar relativa a esse item*/
+}
+
+.empresa::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute; /*meu elemento verde agora saiu do fluxo com isso*/
+  top: 20px;
+  left: -4px;
+}
+
+.empresa-ano {
+  /* background: blue; */
+  position: absolute; /*removi o ano das empresas totalmente do fluxo, elas estão 'flutando'*/
+  top: 22px;
+  left: -100px;
+  text-align: right;
+  width: 80px;
+  color: #525252;
+  font-size: 0.875rem;
+}
+
+.empresa-titulo {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold; /*os titulos da seguna ccoluna n estavam em bold*/
+}
+
+.empresa-texto {
+  font-size: 0.875rem;
+  color: #525252;
+  line-height: 1.4;
+}
+
+.empresa-habilidades {
+  display: flex; /*agora o texto esta em linha*/
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.empresa-habilidades li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 5px 10px;
+}
+
+/* --------------------------------------------------------responsivo----------------------------------------------------- */
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+  .empresa-ano {
+    position: initial; /*mudei o position do ano, pois ele tinha subido conforme diminui a tela*/
+    order: 1; /*p o ano ficar abaixo dos elementos do container, se fosse 0 ele ficaria como primeiro, como nenhum outro elemento tem ordem definida, qui o 1 seria o ultimo elemento, é como se ele pegasse o meu <span>ano no html e jogasse para baixo do codigo  */
+    width: initial; /*coloquei os atributos do ano para o valor inicial dele*/
+    text-align: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+}

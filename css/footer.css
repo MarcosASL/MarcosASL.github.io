@@ -3,10 +3,10 @@
 }
 
 .footer-container {
+  display: grid;
   max-width: 1200px;
   padding: 120px 20px 60px 20px;
   margin: 0 auto;
-  display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
   align-items: center;
@@ -44,6 +44,6 @@
     gap: 40px;
   }
   .footer-contato li {
-    font-size: 1, 5rem;
+    font-size: 1.5rem;
   }
 }

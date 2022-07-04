@@ -7,7 +7,7 @@ que será constantemente atualizado.
  
 
 # curriculo responsivo
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/MarcosASL/MarcosASL.github.io/blob/main/LICENCE) 
+[![teste]("colocarfoto aqui")
 
 # Sobre o projeto
 

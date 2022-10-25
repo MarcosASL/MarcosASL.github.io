@@ -7,7 +7,7 @@ que será constantemente atualizado.
  
 
 # curriculo responsivo
-[![teste]("colocarfoto aqui")
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/MarcosASL/MarcosASL.github.io/blob/main/LICENCE) 
 
 # Sobre o projeto
 
@@ -19,48 +19,18 @@ O projeto é um curriculo responsivo que criei durante as aulas de Front End do 
 algumas funcionalidades ainda estão sendo implementadas.
 
 ## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+<img src="https://github.com/MarcosASL/assets/blob/main/mobile1.jpg" width="270" height="480"> <img src="https://github.com/MarcosASL/assets/blob/main/mobile2.jpg" width="270" height="480"> <img src="https://github.com/MarcosASL/assets/blob/main/mobile4.jpg" width="270" height="480">
 
 ## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+<img src="https://github.com/MarcosASL/assets/blob/main/web1.jpg" width="800" height="450">
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
-
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+<img src="https://github.com/MarcosASL/assets/blob/main/web2.jpg" width="800" height="450">
 
 # Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
-
+- HTML / CSS / JS (em breve) 
+<!-- 
 # Como executar o projeto
 
-## Back end
-Pré-requisitos: Java 11
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
 
 ## Front end web
 Pré-requisitos: npm / yarn
@@ -77,11 +47,10 @@ yarn install
 
 # executar o projeto
 yarn start
-```
+``` -->
 
 # Autor
 
-Wellington Mazoni de Andrade
+Marcos Antonio da Silva Lima
 
-https://www.linkedin.com/in/wmazoni
 

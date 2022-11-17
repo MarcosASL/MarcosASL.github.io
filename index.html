@@ -15,26 +15,28 @@
 </head>
 
 <body id="home" aria-label="home">
-  <header class="header">
-    <a href="#home"> <img src="./img/LOGO-so-m.svg" alt=""></a>
-    <!-- <img src="./img/LOGO-so-m.svg" alt=""> -->
-    <!-- <img src="./img/marca.svg" alt="" width="104" height="38"> -->
 
-    <nav>
+  <header class="header">
+    <div class="logo">
+      <a href="#home"> <img src="./img/LOGO-so-m.svg" alt=""></a>
+    </div>
+
+
+    <nav class="navegacao">
       <ul class="header-menu">
         <li><a href="#experiencia">Experiência</a></li>
         <li><a href="#formacao">Formação</a></li>
         <li><a href="#contato">Contato</a></li>
         <!-- botão noturno -->
-        <label class="toggle">
-          <input type="checkbox" class="toggle__input sr-only">
-          <span class="toggle__item"></span>
-        </label>
-
-
         <!-- ao clicar aqui em cada elemento acima ele direciona para a area especifica onde terá o seu id -->
       </ul>
     </nav>
+
+    <label class="toggle">
+      <input type="checkbox" class="toggle__input sr-only">
+      <span class="toggle__item"></span>
+    </label>
+
   </header>
   <main class="introducao">
     <img src="./img/perfil.jpg" alt="foto do lobo" width="360" height="520">

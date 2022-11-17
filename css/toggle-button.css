@@ -35,7 +35,7 @@
   border: 5px solid #ffe85d;
   background: #ffb70c;
   transition: transform 0.4s ease-out, box-shadow 0.4s ease;
-  transform-origin: 35px center; /*70px*/
+  transform-origin: 32px center; /*70px lua left*/
 }
 
 .toggle__input:checked + .toggle__item {

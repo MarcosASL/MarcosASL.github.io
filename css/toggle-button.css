@@ -10,8 +10,8 @@
 }
 
 .toggle__item {
-  width: 160px;
-  height: 80px;
+  width: 70px; /*160* deixei 80*/
+  height: 30px; /*80 deixei 40*/
   display: block;
   position: relative;
   overflow: hidden;
@@ -28,14 +28,14 @@
   display: block;
   position: absolute;
   left: 5px;
-  top: calc(50% - 25px);
-  width: 40px;
-  height: 40px;
+  top: calc(50% - 12px); /*-25*/
+  width: 15px; /*40*/
+  height: 15px; /*40*/
   border-radius: 50%;
   border: 5px solid #ffe85d;
   background: #ffb70c;
   transition: transform 0.4s ease-out, box-shadow 0.4s ease;
-  transform-origin: 70px center;
+  transform-origin: 35px center; /*70px*/
 }
 
 .toggle__input:checked + .toggle__item {
@@ -44,8 +44,8 @@
 }
 
 .toggle__input:checked + .toggle__item::before {
-  transform: rotate(-180deg);
+  transform: rotate(-180deg); /*-180deg*/
   background-color: transparent;
   border-color: transparent;
-  box-shadow: inset 10px -10px #f5f5f5;
+  box-shadow: inset 6px -1px #f5f5f5; /*circuferencia da lua*/
 }

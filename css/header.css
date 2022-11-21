@@ -87,7 +87,31 @@
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #0090f7;
+  /* background-color: #55b1f4; */
+  background: linear-gradient(
+    0deg,
+    rgba(85, 177, 244, 1) 0%,
+    rgba(3, 233, 223, 1) 100%
+  );
+
+  /* background: linear-gradient(
+    0deg,
+    rgba(85, 177, 244, 1) 0%,
+    rgba(3, 233, 223, 0.4906337535014006) 100%
+  ); */
+
+  /* background: linear-gradient(
+    0deg,
+    rgba(85, 177, 244, 1) 0%,
+    rgba(3, 233, 223, 0.11248249299719892) 100%
+  ); */
+
+  /* background: linear-gradient(
+    0deg,
+    rgba(85, 177, 244, 0.40940126050420167) 0%,
+    rgba(3, 233, 223, 0.4290091036414566) 100%
+  ); */
+
   width: 3px;
   border-radius: 5px;
   transform: scaleY(0);

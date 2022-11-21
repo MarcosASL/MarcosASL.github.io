@@ -50,13 +50,6 @@
   display: block;
 }
 
-.header-menu a {
-  /* border: solid transparent; */
-}
-.header-menu a:hover {
-  /* border: solid #67dd0a; */
-}
-
 /*hover do nav aqui---------------------------------*/
 .navegacao {
   /* background-image: linear-gradient(to right, green, yellow);

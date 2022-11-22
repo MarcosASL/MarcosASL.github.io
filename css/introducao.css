@@ -7,10 +7,15 @@
   gap: 100px;
   align-items: center;
 }
+/* .introducao img {
+  display: block;
+  width: 700pt;
+  height: 500px;
+} */
 
-/*TENTANDO EFEITO NAS LETRAS*/
+/*TENTANDO EFEITO NA foto*/
 
-/*TENTANDO EFEITO NAS LETRAS FIM*/
+/*TENTANDO EFEITO NA foto*/
 
 /*efeito gradiente no texto*/
 .texto-profissao h1 {

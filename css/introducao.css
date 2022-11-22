@@ -39,20 +39,17 @@
 }
 
 /*ABAIXO É O DETALHE POR TRÁS DA LETRA*/
-.introducao h1::before {
+/* .introducao h1::before {
   content: " ";
   display: block;
   width: 130px;
   height: 100px;
-  /* width: 330px;
-  height: 300px; */
   background: url("../img/detalhe.svg") no-repeat center;
-  /* background: url("../img/light-sabers-svgrepo-com.svg") no-repeat center; */
   position: absolute;
   top: -15px;
   left: -40px;
   z-index: -1;
-}
+} */
 
 .introducao p {
   font: 14.5rem;

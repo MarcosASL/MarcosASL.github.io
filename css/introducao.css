@@ -8,19 +8,14 @@
   align-items: center;
 }
 
-.introducao h1 {
-  font-size: 4.5rem;
-  line-height: 1.125;
-  margin-bottom: 30px;
-  position: relative;
-}
-
 /*efeito gradiente no texto*/
 .texto-profissao h1 {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 6rem;
   font-weight: 100;
   letter-spacing: 2px;
+  line-height: 1.125;
+  margin-bottom: 30px;
   /* text-align: center; */
   color: #f35626;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
@@ -28,7 +23,13 @@
   -webkit-text-fill-color: transparent;
   -webkit-animation: hue 10s infinite linear;
 }
-
+.texto-profissao p {
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 10s infinite linear;
+}
 @-webkit-keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);

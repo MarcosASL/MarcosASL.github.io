@@ -9,18 +9,6 @@
 }
 
 /*TENTANDO EFEITO NAS LETRAS*/
-@import url("https://cutt.ly/ShmGgYf");
-.letra {
-  font-size: 50px;
-  font-family: Montserrat;
-  display: inline-block;
-  color: #fff;
-  transition: 0.2s ease-out;
-}
-.letra .active {
-  color: #ffd500;
-  transform: scale(2) rotate(-20deg);
-}
 
 /*TENTANDO EFEITO NAS LETRAS FIM*/
 

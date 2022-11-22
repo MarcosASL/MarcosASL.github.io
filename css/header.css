@@ -44,11 +44,10 @@
 
 .nav_item {
   position: relative;
-  font-weight: 500;
-  font-size: 28px;
+  /* font-weight: 500;
+  font-size: 28px; */
 }
 .nav_item:hover::before {
-  /*&:hover::before*/
   content: "";
   width: 100%;
   transform: scaleY(1);
@@ -67,41 +66,18 @@
     rgba(3, 233, 223, 1) 100%
   );
 
-  /* background: linear-gradient(
-    0deg,
-    rgba(85, 177, 244, 1) 0%,
-    rgba(3, 233, 223, 0.4906337535014006) 100%
-  ); */
-
-  /* background: linear-gradient(
-    0deg,
-    rgba(85, 177, 244, 1) 0%,
-    rgba(3, 233, 223, 0.11248249299719892) 100%
-  ); */
-
-  /* background: linear-gradient(
-    0deg,
-    rgba(85, 177, 244, 0.40940126050420167) 0%,
-    rgba(3, 233, 223, 0.4290091036414566) 100%
-  ); */
-
   width: 3px;
   border-radius: 5px;
   transform: scaleY(0);
   transition: transform 0.2s, width 0.4s 0.2s, background-color 0.1s;
 }
 
-.nav_item:not(:last-child) {
-  /* margin-bottom: 30px; */
-}
-
 .nav__link:link,
 .nav__link:visited {
-  text-decoration: none;
+  /* text-decoration: none; */
   /* color: #fff; */
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   position: relative;
-
   display: block;
   display: flex;
   z-index: 10;
@@ -110,7 +86,6 @@
 }
 .nav__link:active {
   transform: translateY(3px);
-  /* background-color: lighten(lime, 20%); */
 }
 /*-----------------------------------------------------RESPONSIVO-----------------------------------------------------------*/
 @media (max-width: 800px) {

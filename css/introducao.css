@@ -24,6 +24,8 @@
   -webkit-animation: hue 10s infinite linear;
 }
 .texto-profissao p {
+  font: 14.5rem;
+  color: #525252;
   color: #f35626;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
@@ -51,11 +53,6 @@
   left: -40px;
   z-index: -1;
 } */
-
-.introducao p {
-  font: 14.5rem;
-  color: #525252;
-}
 
 /*--------------------------------------------------------RESPONSIVO---------------------------------------------------*/
 @media (max-width: 1000px) {

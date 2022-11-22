@@ -17,16 +17,18 @@
   line-height: 1.125;
   margin-bottom: 30px;
   /* text-align: center; */
-  color: #f35626;
+  color: #2fa0fb;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: hue 10s infinite linear;
 }
 .texto-profissao p {
-  font: 14.5rem;
-  color: #525252;
-  color: #f35626;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  /* font: 14.5rem; */
+  /* color: #525252; */
+  color: #2fa0fb;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

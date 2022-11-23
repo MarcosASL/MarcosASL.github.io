@@ -73,7 +73,8 @@ svg {
   transform: rotateY(180deg);
 }
 .card .info {
-  padding: 16px;
+  padding: 12px; /*original 16px*/
+  text-align: center;
 }
 
 .front .img {

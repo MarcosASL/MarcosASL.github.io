@@ -1,12 +1,12 @@
-body {
+/* body {
   font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
-  color: #141414;
-  /* margin-bottom: 1000px; */
-  /*usei só p ver melhora enquanto fazia o site, ao finalizar posso tirar!*/
-}
+  color: #141414; */
+/* margin-bottom: 1000px; */
+/*usei só p ver melhora enquanto fazia o site, ao finalizar posso tirar!*/
+/* } */
 
-h1,
+/* h1,
 h2,
 h3,
 p {
@@ -27,6 +27,29 @@ img {
   max-width: 100%;
   display: block;
   height: auto;
+} */
+
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  color: #141414;
+
+  font-size: 100%;
+  list-style-type: none;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .subtitulo {

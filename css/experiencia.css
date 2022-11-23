@@ -12,6 +12,8 @@ svg {
 }
 
 .cardContainer {
+  /* display: flex; */
+  /* flex: 1; */
   position: relative;
   width: 300px;
   height: 400px;
@@ -148,10 +150,15 @@ svg {
   opacity: 0;
   transition: all 0.3s ease-out;
 }
+.cardContainer {
+  outline: 2px solid red;
+  display: inline-block;
+}
 
 /* TENTANDO CARD NOVO DOS PROJETOS FIM */
 
 .experiencia {
+  outline: 2px solid red;
   max-width: 1200px;
   padding: 40px 20px;
   margin: 0 auto;

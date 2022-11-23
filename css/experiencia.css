@@ -85,17 +85,21 @@ svg {
   width: 100%;
   height: 350px; /*original são 250px*/
 }
-/* .front .img1 {
-  background-image: url(http://i.imgur.com/1aE1nMA.jpg);
+.front .img1 {
+  background-image: url(../img/bikcraft-img.png);
 }
+
 .front .img2 {
-  background-image: url(http://i.imgur.com/2p9VXAn.jpg);
+  background-image: url(../img/ragnarok-img.png);
 }
 .front .img3 {
-  background-image: url(http://i.imgur.com/I5ABT2v.jpg);
-} */
+  background-image: url(../img/wildbeast-img.png);
+}
+.front .img4 {
+  background-image: url(../img/flexBlog-img.png);
+}
 
-.back {
+*/ .back {
   position: relative;
 }
 .back h2 {

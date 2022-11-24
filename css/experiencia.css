@@ -99,34 +99,24 @@ svg {
   background-image: url(../img/flexBlog-img.png);
 }
 
+/*BOTÃO DO GITHUB NO CARD*/
+.github-card img:hover {
+  transition: all 0.3s ease;
+  box-shadow: 5px 5px 5px #000;
+  transform: translateY(-5px);
+}
+
 .github-card {
-  display: inline-block;
-  /* margin-top: 20px; */
-  margin: 2em 15em 0 0;
+  margin: 1em 2em;
   /* outline: 2px solid red; */
 }
-.esfera-js {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+.github-card p {
+  margin-top: -2em;
 }
-
-.esfera-js {
-  /* position: relative; */
+.lista-card-descri li:last-child {
+  color: #ffb714;
 }
-.esfera-js p::before {
-  content: "";
-  display: block;
-  margin: 0.2em;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #efd81c;
-  /* z-index: -1; */
-  margin-right: 10px;
-  position: absolute;
-}
-
+/*BOTÃO DO GITHUB NO CARD FIM*/
 */ .back {
   position: relative;
 }

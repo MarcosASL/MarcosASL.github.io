@@ -108,7 +108,6 @@ svg {
 
 .github-card {
   margin: 1em 2em;
-  /* outline: 2px solid red; */
 }
 .github-card p {
   margin-top: -2em;
@@ -185,14 +184,38 @@ svg {
   /* display: grid; */
   /* margin-left: -400px;
   margin: 0px; */
+  /* outline: 10px solid green; */
 }
 .exp-img {
+  display: grid;
+  outline: 2px solid red;
+  /* place-content: center; */
+  /* display: grid; */
+  /* outline: 2px solid red; */
+  /* grid-column: 2; */
+
   /* display: grid;
   grid-column: -3; */
 }
+.exp-text-cards {
+  outline: 2px solid greenyellow;
+  /* top: 20%; */
+  display: block;
+  /* margin-top: 10%; */
+  grid-column: 2;
+  grid-row: 1;
+}
+.exp-e-img {
+  display: grid;
+  outline: 2px solid greenyellow;
+  gap: 17em;
+  /* margin: 20px; */
+}
 .experiencia img {
+  outline: 2px solid red;
   /* height: 300px; */
-  /* grid-column: -2; */
+  /* grid-column: 1; */
+  /* grid-row: 2 / 2; */
   /* max-width: 200px;
   max-height: 150px;
   width: auto;
@@ -210,6 +233,9 @@ svg {
 }
 .experiencia .subtitulo {
   color: #e0e0e0;
+  outline: 2px solid red;
+  /* width: max-content; */
+  height: max-content;
 }
 
 .experiencia-texto {

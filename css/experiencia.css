@@ -12,7 +12,6 @@ svg {
 }
 
 .cardContainer {
-  /* display: flex; */
   /* flex: 1; */
   position: relative;
   width: 300px;
@@ -30,6 +29,16 @@ svg {
   display: none;
 }
 
+.container-cards-geral {
+  outline: 2px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 0px 20px;
+  /* display: flex; */
+  /* gap: 80px; */
+}
+
 .card {
   display: inline-block;
   width: 100%;
@@ -39,6 +48,7 @@ svg {
   transform-style: preserve-3d;
   transform: translateZ(-100px);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  /* margin-right: 80px; */
 }
 .card:after {
   content: "";
@@ -188,10 +198,11 @@ svg {
 .exp-text-cards {
   outline: 2px solid greenyellow;
   /* top: 20%; */
-  display: block;
+  /* display: grid; */
   /* margin-top: 10%; */
   grid-column: 2;
   grid-row: 1;
+  /* gap: 50px; */
 }
 .exp-e-img {
   display: grid;
@@ -305,6 +316,71 @@ svg {
   text-transform: uppercase;
   word-break: break-all;
   max-width: 4ch;
+}
+
+/*botão mais projetos..*/
+
+.botao-mais-projetos {
+  /* outline: 2px solid red; */
+  display: inline-block;
+  /* display: block; */
+  /* margin-right: 50%; */
+
+  /* align-items: center; */
+  /* background-color: #f9f9f9; */
+  /* display: flex; */
+  /* height: 100%; */
+  /* justify-content: center; */
+  /* max-width: 100%; */
+  /* min-height: 100vh; */
+  /* position: relative; */
+}
+
+.botao-mais-projetos > a {
+  /* display: block; */
+  background-color: #0dd;
+  /* border: none; */
+  transition: background-color 0.5s linear, color 0.5s linear;
+  padding: 10px 20px;
+}
+.botao-mais-projetos a:hover {
+  background-color: #00c4;
+}
+.botao-mais-projetos a:focus {
+  outline: none;
+}
+
+.botao-link-effect {
+  -webkit-animation: shadowFloat 1.2s linear alternate infinite;
+  animation: shadowFloat 1.2s linear alternate infinite;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px #00aaaa;
+}
+
+@-webkit-keyframes shadowFloat {
+  0% {
+    box-shadow: 0 20px 40px #c7c7c7;
+    transform: translateY(-3px);
+  }
+  100% {
+    box-shadow: 0 10px 10px #bababa;
+    transform: translateY(3px);
+  }
+}
+
+@keyframes shadowFloat {
+  0% {
+    box-shadow: 0 20px 40px #c7c7c7;
+    transform: translateY(-3px);
+  }
+  100% {
+    box-shadow: 0 10px 10px #bababa;
+    transform: translateY(3px);
+  }
 }
 
 /* --------------------------------------------------------responsivo----------------------------------------------------- */

@@ -235,7 +235,7 @@ svg {
   color: #e0e0e0;
   outline: 2px solid red;
   /* width: max-content; */
-  height: max-content;
+  /* height: max-content; */
 }
 
 .experiencia-texto {
@@ -310,7 +310,24 @@ svg {
   padding: 5px 10px;
 }
 
+.subtitulo {
+  /* titulo 'EXPERIENCIA'*/
+  font-size: 9.5rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
 /* --------------------------------------------------------responsivo----------------------------------------------------- */
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize; /*só aumenta a primeira letra*/
+    max-width: initial !important;
+  }
+}
 
 @media (max-width: 800px) {
   .experiencia {

@@ -179,21 +179,9 @@ svg {
 
 /* TENTANDO CARD NOVO DOS PROJETOS FIM */
 
-.exp-img img {
-  /* width: 300px; */
-  /* display: grid; */
-  /* margin-left: -400px;
-  margin: 0px; */
-  /* outline: 10px solid green; */
-}
 .exp-img {
   display: grid;
   outline: 2px solid red;
-  /* place-content: center; */
-  /* display: grid; */
-  /* outline: 2px solid red; */
-  /* grid-column: 2; */
-
   /* display: grid;
   grid-column: -3; */
 }
@@ -225,7 +213,7 @@ svg {
 .experiencia {
   outline: 2px solid red;
   max-width: 1200px;
-  padding: 40px 20px;
+  padding: 5px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr; /*aqui é 2fr para ficar alinhado ao texto de cima de h1*/

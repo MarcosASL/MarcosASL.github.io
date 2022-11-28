@@ -212,10 +212,15 @@ svg {
 }
 .exp-e-img h3 {
   display: inline-block;
-  color: #e0e0e0;
+  font-size: 4.5rem;
+  text-transform: uppercase;
   word-break: break-all;
-  box-sizing: border-box;
-  outline: 2px solid greenyellow;
+  /* outline: 2px solid greenyellow; */
+  color: #2fa0fb;
+  background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .experiencia {
   /* outline: 2px solid red; */

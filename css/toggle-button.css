@@ -16,7 +16,7 @@
   position: relative;
   overflow: hidden;
   background-color: #00bfff;
-  border: 5px solid #99ccff;
+  border: 4px solid #99ccff;
   border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.3s ease, border-color 0.3s ease;
@@ -27,15 +27,15 @@
   content: "";
   display: block;
   position: absolute;
-  left: 5px;
-  top: calc(50% - 12px); /*-25*/
-  width: 15px; /*40*/
-  height: 15px; /*40*/
+  left: 3px; /*era 5px*/
+  top: calc(35% - 7px); /*-25.  depois 50% - 12px*/
+  width: 20px; /*40 depois 15*/
+  height: 20px; /*40 depois 15*/
   border-radius: 50%;
-  border: 5px solid #ffe85d;
+  border: 4px solid #ffe85d;
   background: #ffb70c;
   transition: transform 0.4s ease-out, box-shadow 0.4s ease;
-  transform-origin: 32px center; /*70px lua left*/
+  transform-origin: 29px center; /*70px lua left, depois 32px, depois 27*/
 }
 
 .toggle__input:checked + .toggle__item {
@@ -47,5 +47,5 @@
   transform: rotate(-180deg); /*-180deg*/
   background-color: transparent;
   border-color: transparent;
-  box-shadow: inset 6px -1px #f5f5f5; /*circuferencia da lua*/
+  box-shadow: inset 5px -1px #f5f5f5; /*circuferencia da lua em C*/
 }

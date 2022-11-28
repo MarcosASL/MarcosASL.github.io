@@ -50,6 +50,14 @@
   display: block;
 }
 
+.logo {
+  display: inline-block;
+  outline: 2px solid greenyellow;
+  /* padding-right: 50px; */
+  /* margin-left: 200px; */
+  margin-left: 10%;
+}
+
 /*hover do nav aqui---------------------------------*/
 
 .nav_item {

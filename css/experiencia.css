@@ -30,7 +30,7 @@ svg {
 }
 
 .container-cards-geral {
-  outline: 2px solid black;
+  /* outline: 2px solid black; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -196,7 +196,7 @@ svg {
   grid-column: -3; */
 }
 .exp-text-cards {
-  outline: 2px solid greenyellow;
+  /* outline: 2px solid greenyellow; */
   /* top: 20%; */
   /* display: grid; */
   /* margin-top: 10%; */
@@ -206,13 +206,13 @@ svg {
 }
 .exp-e-img {
   display: grid;
-  outline: 2px solid greenyellow;
+  /* outline: 2px solid greenyellow; */
   gap: 17em;
   /* margin: 20px; */
 }
 
 .experiencia {
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   max-width: 1200px;
   padding: 5px 20px;
   margin: 0 auto;
@@ -222,7 +222,7 @@ svg {
 }
 .experiencia .subtitulo {
   color: #e0e0e0;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   /* width: max-content; */
   /* height: max-content; */
 }

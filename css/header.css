@@ -1,11 +1,14 @@
 .header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
   /* max-width: 1200px; */
   /* padding: 40px 20px; */
   padding: 10px;
   /* margin: 0 auto; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between !important;
+  /* justify-content: space-between !important; */
   /* justify-content: end; */
   /* justify-content: center !important; */
   /* align-items: center !important; */
@@ -16,7 +19,7 @@
   border-radius: 2px;
 }
 .todos-itens-header {
-  outline: 5px solid greenyellow;
+  /* outline: 5px solid greenyellow; */
   display: flex;
   flex-wrap: wrap;
   min-width: 100%;
@@ -25,14 +28,6 @@
   /* margin-right: 20px; */
   /* flex: 1 1 1000px; */
   justify-content: space-around;
-}
-
-.logo {
-  display: inline-block;
-  /* align-self: flex-start; */
-  /* flex: 1; */
-  outline: 2px solid red;
-  /* margin-left: 80px; */
 }
 
 .header-menu {

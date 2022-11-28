@@ -321,10 +321,11 @@ svg {
 /*botão mais projetos..*/
 
 .botao-mais-projetos {
-  /* outline: 2px solid red; */
+  outline: 2px solid greenyellow;
   display: inline-block;
   /* display: block; */
   /* margin-right: 50%; */
+  margin-left: 38%;
 
   /* align-items: center; */
   /* background-color: #f9f9f9; */
@@ -337,7 +338,10 @@ svg {
 }
 
 .botao-mais-projetos > a {
-  /* display: block; */
+  outline: 2px solid red;
+  display: block;
+  /* margin-left: 50%; */
+  /* margin-right: 50%; */
   background-color: #0dd;
   /* border: none; */
   transition: background-color 0.5s linear, color 0.5s linear;

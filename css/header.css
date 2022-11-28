@@ -24,7 +24,7 @@
   /* margin-left: 20px; */
   /* margin-right: 20px; */
   /* flex: 1 1 1000px; */
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logo {

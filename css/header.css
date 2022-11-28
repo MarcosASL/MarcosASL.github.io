@@ -8,15 +8,16 @@
   /* margin: 0 auto; */
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between !important; */
-  /* justify-content: end; */
-  /* justify-content: center !important; */
-  /* align-items: center !important; */
-  outline: 2px solid red;
-  background: #f5f5f5;
+  /* outline: 2px solid red; */
+  /* background: #f5f5f5; */
   /*----------------------------borda do header-------------*/
   box-shadow: 0px 0px 10px #0090f7;
   border-radius: 2px;
+  /*glass efeito*/
+  backdrop-filter: blur(40px) saturate(200%);
+  -webkit-backdrop-filter: blur(40px) saturate(200%);
+  background-color: rgba(20, 20, 20, 0.68);
+  /* border: 1px solid rgba(209, 213, 219, 0.3); */
 }
 .todos-itens-header {
   /* outline: 5px solid greenyellow; */
@@ -32,7 +33,7 @@
 
 .header-menu {
   display: flex;
-  outline: 2px solid greenyellow;
+  /* outline: 2px solid greenyellow; */
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
@@ -44,8 +45,8 @@
   line-height: 1.3;
   padding: 10px 20px;
   text-decoration: none;
-  color: #141411;
-  /* color: #ffffff; */
+  /* color: #141411; */
+  color: #ffffff;
   display: block;
 }
 

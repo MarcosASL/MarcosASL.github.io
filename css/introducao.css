@@ -44,7 +44,19 @@
   -webkit-animation: hue 10s infinite linear;
 }
 .texto-profissao a {
-  border: solid 1px blue;
+  display: inline-block;
+  border: solid 2px black;
+  border-radius: 5px;
+  padding: 08px 08px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* background-color: #2fa0fb; */
+  /* color: black; */
+}
+.texto-profissao a:hover {
+  transition: all 0.3s ease;
+  box-shadow: 5px 5px 5px;
 }
 
 @-webkit-keyframes hue {

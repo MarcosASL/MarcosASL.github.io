@@ -191,7 +191,7 @@ svg {
 
 .exp-img {
   display: grid;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   /* display: grid;
   grid-column: -3; */
 }
@@ -210,17 +210,7 @@ svg {
   gap: 17em;
   /* margin: 20px; */
 }
-.experiencia img {
-  outline: 2px solid red;
-  /* height: 300px; */
-  /* grid-column: 1; */
-  /* grid-row: 2 / 2; */
-  /* max-width: 200px;
-  max-height: 150px;
-  width: auto;
-  height: auto;
-  object-fit: none; */
-}
+
 .experiencia {
   outline: 2px solid red;
   max-width: 1200px;
@@ -321,7 +311,7 @@ svg {
 /*botão mais projetos..*/
 
 .botao-mais-projetos {
-  outline: 2px solid greenyellow;
+  /* outline: 2px solid greenyellow; */
   display: inline-block;
   /* display: block; */
   /* margin-right: 50%; */
@@ -338,7 +328,7 @@ svg {
 }
 
 .botao-mais-projetos > a {
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   display: block;
   /* margin-left: 50%; */
   /* margin-right: 50%; */
@@ -351,7 +341,6 @@ svg {
 }
 .botao-mais-projetos a:hover {
   background-color: #0dd;
-  content: "This text replaces the original.";
 }
 .botao-mais-projetos a:focus {
   outline: none;

@@ -8,7 +8,7 @@
   justify-content: space-between !important;
   /* justify-content: end; */
   /* justify-content: center !important; */
-  align-items: center !important;
+  /* align-items: center !important; */
   outline: 2px solid red;
   background: #f5f5f5;
   /*----------------------------borda do header-------------*/
@@ -32,7 +32,7 @@
   /* align-self: flex-start; */
   /* flex: 1; */
   outline: 2px solid red;
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 
 .header-menu {

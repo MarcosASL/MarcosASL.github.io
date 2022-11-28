@@ -43,6 +43,10 @@
   -webkit-text-fill-color: transparent;
   -webkit-animation: hue 10s infinite linear;
 }
+.texto-profissao a {
+  border: solid 1px blue;
+}
+
 @-webkit-keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);

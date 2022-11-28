@@ -342,13 +342,16 @@ svg {
   display: block;
   /* margin-left: 50%; */
   /* margin-right: 50%; */
-  background-color: #0dd;
+  /* background-color: #0dd; */
+  background-color: #0090f7;
+
   /* border: none; */
   transition: background-color 0.5s linear, color 0.5s linear;
   padding: 10px 20px;
 }
 .botao-mais-projetos a:hover {
-  background-color: #00c4;
+  background-color: #0dd;
+  content: "This text replaces the original.";
 }
 .botao-mais-projetos a:focus {
   outline: none;

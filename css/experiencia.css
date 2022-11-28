@@ -207,10 +207,16 @@ svg {
 .exp-e-img {
   display: grid;
   /* outline: 2px solid greenyellow; */
-  gap: 17em;
+  /* gap: 17em; */
   /* margin: 20px; */
 }
-
+.exp-e-img h3 {
+  display: inline-block;
+  color: #e0e0e0;
+  word-break: break-all;
+  box-sizing: border-box;
+  outline: 2px solid greenyellow;
+}
 .experiencia {
   /* outline: 2px solid red; */
   max-width: 1200px;

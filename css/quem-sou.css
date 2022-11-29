@@ -1,15 +1,13 @@
-.quem-sou {
-  /* background: #e3ffef; */
-  /* background: #ffe742; */
-  /* background: #87fffb; */
-  /* background: #e1f1ff; */
-  /* background: #ebebff; */
-  /* background: #6c6efd; */
-  /* background: #cdcdff; */
-  /* background: #2fa0fb; */
-
-  /* background-image: url("../img/wave.svg"); */
-}
+/* .quem-sou {
+  background: #e3ffef;
+  background: #ffe742;
+  background: #87fffb;
+  background: #e1f1ff;
+  background: #ebebff;
+  background: #6c6efd;
+  background: #cdcdff;
+  background: #2fa0fb;
+} */
 .quem-sou-container-geral {
   display: grid;
   max-width: 1200px;
@@ -43,13 +41,11 @@
   /* color: #a3a3a3; */
   color: black;
 }
-.img-perfil img {
-  /* -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
-  /* caminho do clipe: polígono(0% 0%,75% 0%,100% 50%,75% 100%,0% 100%); */
-  /* border: solid 2px black; */
-  /* max-width: max-content; */
+/* .img-perfil img {
+  border: solid 2px black;
+  max-width: max-content;
   max-width: 150%;
-}
+} */
 
 .quem-sou-texto {
   border: solid 2px black;

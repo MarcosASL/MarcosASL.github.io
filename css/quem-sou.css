@@ -17,10 +17,10 @@
   gap: 100px;
   /* background: #00bfff; */
   /* position: relative; */
-  border: solid 2px black;
+  /* border: solid 2px black; */
 }
 .quem-sou-texto h2 {
-  border: solid 2px black;
+  /* border: solid 2px black; */
   display: inline-block;
   font-size: 5.5rem;
   text-transform: uppercase;
@@ -48,7 +48,7 @@
 } */
 
 .quem-sou-texto {
-  border: solid 2px black;
+  /* border: solid 2px black; */
   display: block;
   /* width: max-content;
   height: max-content; */

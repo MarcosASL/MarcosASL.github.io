@@ -1,5 +1,14 @@
 .quem-sou {
-  background: #00bfff;
+  /* background: #e3ffef; */
+  /* background: #ffe742; */
+  /* background: #87fffb; */
+  /* background: #e1f1ff; */
+  /* background: #ebebff; */
+  /* background: #6c6efd; */
+  /* background: #cdcdff; */
+  /* background: #2fa0fb; */
+
+  /* background-image: url("../img/wave.svg"); */
 }
 .quem-sou-container-geral {
   display: grid;
@@ -8,7 +17,7 @@
   margin: 0 auto; /*0 auto*/
   grid-template-columns: 1fr 2fr;
   gap: 100px;
-  background: #00bfff;
+  /* background: #00bfff; */
   /* position: relative; */
   border: solid 2px black;
 }
@@ -18,14 +27,18 @@
   font-size: 4.5rem;
   text-transform: uppercase;
   word-break: break-all;
-  color: #2fa0fb;
+  color: #e0e0e0;
+  /* color: #2fa0fb;
   background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
   /* margin-top: -200px; */
   /* margin: 5px 700px; */
   margin-top: -80px;
+}
+.quem-sou-texto h2 span {
+  color: #2fa0fb;
 }
 .quem-sou-texto p {
   /* margin: 20px; */
@@ -38,11 +51,14 @@
   color: black;
 }
 .img-perfil img {
-  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  /* -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
   /* caminho do clipe: polígono(0% 0%,75% 0%,100% 50%,75% 100%,0% 100%); */
-  border: solid 2px black;
+  /* border: solid 2px black; */
   /* max-width: max-content; */
-  /* max-width: 125%; */
+  max-width: 150%;
+}
+
+.img-perfil img:hover {
 }
 
 .quem-sou-texto {

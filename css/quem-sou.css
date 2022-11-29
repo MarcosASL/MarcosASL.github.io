@@ -58,9 +58,6 @@
   max-width: 150%;
 }
 
-.img-perfil img:hover {
-}
-
 .quem-sou-texto {
   border: solid 2px black;
   display: block;
@@ -71,23 +68,34 @@
 }
 
 /*ICONES REDES SOCIAIS*/
-/* body {
+.icones-redes {
   display: block;
-  padding: 20px;
-  font-family: sans-serif;
-} */
+  border: solid 2px red;
+  /* align-items: center;
+  align-self: center;
+  justify-items: center; */
+}
 
 .social-icons {
+  /* border: solid 2px black; */
   max-width: 980px;
+  /* margin-left: 80px; */
   /* margin: 0 auto; */
+  /* padding: 20px; */
+  /* margin: 10%; */
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  /* padding-left: 20%; */
 }
 
 .icon {
+  border: solid 2px red;
   float: left;
   position: relative;
   width: 19%;
   height: 0;
-  margin: 1% 0.5%;
+  margin: 1% 2%;
   padding-bottom: 19%;
 }
 @media all and (min-width: 640px) {

@@ -69,3 +69,92 @@
   /* grid-column: 2; */
   /* grid-row: 1; */
 }
+
+/*ICONES REDES SOCIAIS*/
+/* body {
+  display: block;
+  padding: 20px;
+  font-family: sans-serif;
+} */
+
+.social-icons {
+  max-width: 980px;
+  /* margin: 0 auto; */
+}
+
+.icon {
+  float: left;
+  position: relative;
+  width: 19%;
+  height: 0;
+  margin: 1% 0.5%;
+  padding-bottom: 19%;
+}
+@media all and (min-width: 640px) {
+  .icon {
+    width: 9%;
+    padding-bottom: 9%;
+  }
+}
+.icon:last-of-type {
+  margin-right: 0;
+}
+.icon a {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 0.2s ease-out;
+}
+.icon a:hover {
+  background-color: #222;
+  background-size: 0%;
+  transition: all 0.2s ease-out;
+}
+
+.icon__name {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -7px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  transition: all 0.3s ease-out;
+  opacity: 0;
+  filter: blur(25px);
+  transform: translateZ(0);
+  will-change: transform;
+}
+.icon:hover .icon__name {
+  transition: all 0.3s ease-out;
+  opacity: 1;
+  filter: blur(0);
+}
+
+.icon--twitter a {
+  background-color: #00aced;
+  background-image: url("https://benhodgson.net/img/social/twitter.svg");
+}
+
+.icon--linkedin a {
+  background-color: #007fb1;
+  background-image: url("https://benhodgson.net/img/social/linkedin.svg");
+}
+
+.icon--instagram a {
+  background-color: #405de6;
+  background-image: url("https://benhodgson.net/img/social/instagram.svg");
+}
+
+.icon--github a {
+  background-color: #4078c0;
+  background-image: url("https://benhodgson.net/img/social/github.svg");
+}

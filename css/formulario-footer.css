@@ -134,11 +134,11 @@ textarea:focus {
 /*botão enviar*/
 .btn {
   /* width: 138px; */
-  height: 44px;
+  /* height: 44px; */
   /* -moz-border-radius: 4px; */
   /* -webkit-border-radius: 4px; */
   border-radius: 4px;
-  float: right;
+  /* float: right; */
   border: 1px solid white;
   background: #2fa0fb;
   /* background: -webkit-gradient(

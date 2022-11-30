@@ -12,11 +12,11 @@
   align-items: center;
 }
 
-.footer-texto {
+/* .footer-texto {
   font-size: 1.5rem;
   line-height: 1.33;
   color: #cccccc;
-}
+} */
 
 .footer-contato li {
   font-weight: bold;
@@ -35,6 +35,8 @@
   font-size: 1.125rem;
   color: #8f8f8f;
 }
+
+/*FORMULARIO DE EMAIL*/
 
 /* -------------------------------------------------RESPONSIVO--------------------------------------------------------- */
 

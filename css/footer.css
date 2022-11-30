@@ -5,7 +5,7 @@
 .footer-container {
   display: grid;
   max-width: 1200px;
-  padding: 120px 20px 60px 20px;
+  padding: 120px 20px 20px 20px;
   margin: 0 auto;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
@@ -21,7 +21,7 @@
   color: #cccccc;
 } */
 
-.footer-contato li {
+/* .footer-contato li {
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 1.1;
@@ -31,12 +31,14 @@
 
 .footer-contato li a {
   color: #ffffffff;
-}
+} */
 
 .footer-copy {
-  grid-column: 1 / -1; /*P MEUS(direitos reservados) OCUPAR DA PRIMEIRA COLUNA, ATÉ A ÚLTIMA COLUNA!*/
+  /* grid-column: 1 / 2; P MEUS(direitos reservados) OCUPAR DA PRIMEIRA COLUNA, ATÉ A ÚLTIMA COLUNA! */
+  grid-column: 1;
   font-size: 1.125rem;
   color: #8f8f8f;
+  padding-left: 120px;
 }
 
 .container-text-footer {

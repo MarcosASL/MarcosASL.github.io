@@ -37,8 +37,9 @@
 }
 
 .footer-container h2 {
-  border: solid 2px black;
-  display: inline-block;
+  /* align-items: start; */
+  border: solid 2px red;
+  /* display: inline-block; */
   font-size: 5.5rem;
   text-transform: uppercase;
   word-break: break-all;
@@ -47,7 +48,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.footer-container a {
+  display: inline-block;
+  border: solid 2px red;
+  color: azure;
+  font-size: 2.5rem;
+}
 /* -------------------------------------------------RESPONSIVO--------------------------------------------------------- */
 
 @media (max-width: 800px) {

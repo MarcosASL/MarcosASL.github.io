@@ -36,7 +36,17 @@
   color: #8f8f8f;
 }
 
-/*FORMULARIO DE EMAIL*/
+.footer-container h2 {
+  border: solid 2px black;
+  display: inline-block;
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  word-break: break-all;
+  margin-top: -80px;
+  background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /* -------------------------------------------------RESPONSIVO--------------------------------------------------------- */
 

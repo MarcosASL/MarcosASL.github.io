@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.container-contato {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 auto;
+  justify-content: center;
+  height: 820px;
+  align-items: flex-end;
+  /* flex-direction: row; */
+  /* background-image: url(assets/bg-white.png); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* gap: 0em 20em; */
+  outline: 2px solid red;
+  margin: 3rem;
+  /* overflow: hidden; */
+  min-width: 280px;
+}
+.textos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  outline: 2px solid green;
+  gap: 1em;
+}
+
+.container-contato h2 {
+  display: inline-block;
+  font-size: 5.5rem;
+  /* text-transform: uppercase; */
+  word-break: break-all;
+  /* font-weight: bold; */
+  /* margin-top: -80px; */
+  background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  outline: 2px solid red;
+}
+.container-contato p {
+  font-size: 1.5rem;
+  outline: 2px solid red;
+  font-weight: bold;
+}
+.container-contato h3 {
+  outline: 2px solid red;
+}
+.container-contato span {
+  outline: 2px solid red;
+  font-size: 3rem;
+}
+.container-contato a {
+  background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
+  border: solid 2px black;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+  /* font-size: 18px; */
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 15px 100px;
+  color: black;
+  /* outline: 2px solid red; */
+}
+.container-contato a:hover {
+  transition: all 0.3s ease;
+  box-shadow: 5px 5px 5px;
+}
+
+body {
+  background-image: url(../img/wave2.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+/*RESPONSIVO*/
+@media (max-width: 750px) {
+  .textos h2 {
+    font-size: 3rem;
+  }
+  .textos p {
+    font-size: 0.8rem;
+    /* color: azure; */
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}

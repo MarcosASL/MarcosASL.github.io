@@ -11,9 +11,11 @@
   flex-wrap: wrap;
   padding: 0 auto;
   justify-content: center;
-  height: 820px;
-  align-items: flex-end;
+  height: 780px;
+  /* align-items: flex-end; */
+  align-items: center;
   /* flex-direction: row; */
+  flex-direction: column;
   /* background-image: url(assets/bg-white.png); */
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
@@ -21,7 +23,7 @@
   outline: 2px solid red;
   margin: 3rem;
   /* overflow: hidden; */
-  min-width: 280px;
+  /* min-width: 280px; */
 }
 .textos {
   display: flex;
@@ -49,8 +51,15 @@
   outline: 2px solid red;
   font-weight: bold;
 }
-.container-contato h3 {
+footer h3 {
+  display: flex;
+  justify-content: space-evenly;
   outline: 2px solid red;
+  font-size: 1rem;
+  font-weight: 100;
+  /* word-break: break-all; */
+  /* margin-left: 30%; */
+  /* padding-inline-end: 2ch; */
 }
 .container-contato span {
   outline: 2px solid red;

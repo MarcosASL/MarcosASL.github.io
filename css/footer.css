@@ -34,11 +34,12 @@
 } */
 
 .footer-copy {
+  /* position: relative; */
   /* grid-column: 1 / 2; P MEUS(direitos reservados) OCUPAR DA PRIMEIRA COLUNA, ATÉ A ÚLTIMA COLUNA! */
   grid-column: 1;
   font-size: 1.125rem;
   color: #8f8f8f;
-  padding-left: 35px;
+  padding-left: 5em;
 }
 
 .container-text-footer {

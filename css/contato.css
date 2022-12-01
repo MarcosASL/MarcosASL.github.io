@@ -97,7 +97,7 @@ footer h3 {
 body {
   background-image: url(../img/wave2.svg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; /*n rola a pagina*/
   background-position: bottom;
 }
 

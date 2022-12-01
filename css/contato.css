@@ -38,7 +38,7 @@
 .container-contato h2 {
   display: inline-block;
   /* font-size: 5.5rem; */
-  font-size: clamp(2rem, 6vw, 5.5rem);
+  font-size: clamp(3.5rem, 6vw, 5.5rem);
   /* text-transform: uppercase; */
   word-break: break-all;
   /* font-weight: bold; */
@@ -50,7 +50,7 @@
 }
 .container-contato p {
   /* font-size: 0.5rem; */
-  font-size: clamp(0.8rem, 2vw, 1.5rem);
+  font-size: clamp(1rem, 2vw, 1.5rem);
   outline: 2px solid purple;
   font-weight: bold;
   word-break: break-all;
@@ -70,6 +70,7 @@ footer h3 {
   /* word-break: break-all; */
   /* margin-left: 30%; */
   /* padding-inline-end: 2ch; */
+  padding-top: 5em;
 }
 .container-contato span {
   outline: 2px solid red;

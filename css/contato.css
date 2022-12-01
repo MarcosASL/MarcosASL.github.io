@@ -11,7 +11,7 @@
   flex-wrap: wrap;
   padding: 0 auto;
   justify-content: center;
-  height: 780px;
+  height: 84vh;
   /* align-items: flex-end; */
   align-items: center;
   /* flex-direction: row; */
@@ -48,8 +48,9 @@
 }
 .container-contato p {
   font-size: 1.5rem;
-  outline: 2px solid red;
+  outline: 2px solid purple;
   font-weight: bold;
+  /* padding: 0 10px; */
 }
 footer h3 {
   display: flex;
@@ -70,7 +71,7 @@ footer h3 {
   border: solid 2px black;
   border-radius: 5px;
   display: inline-block;
-  padding: 10px;
+  padding: 0.62em;
   /* font-size: 18px; */
   text-transform: uppercase;
   font-weight: bold;

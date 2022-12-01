@@ -140,6 +140,21 @@
   justify-content: space-between;
 }
 
+/*cards das habilidades*/
+.card-habilidades-container-geral {
+  /* display: flex; */
+  outline: 2px solid red;
+  height: 40vh;
+}
+
+.card-habilidade {
+  filter: invert();
+  outline: 2px solid pink;
+}
+.card-habilidade img {
+  max-width: 60px;
+  /* outline: 2px solid red; */
+}
 /* ----------------------------------------------------responsivo-------------------------------------------------- */
 @media (max-width: 800px) {
   .formacao-container {

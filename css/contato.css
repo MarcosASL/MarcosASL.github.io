@@ -92,15 +92,14 @@ body {
 }
 
 /*RESPONSIVO*/
-@media (max-width: 750px) {
+/* @media (max-width: 750px) {
   .textos h2 {
     font-size: 3rem;
   }
   .textos p {
     font-size: 0.8rem;
-    /* color: azure; */
   }
   h3 {
     font-size: 1rem;
   }
-}
+} */

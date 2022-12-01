@@ -21,7 +21,7 @@
   /* background-repeat: no-repeat; */
   /* gap: 0em 20em; */
   outline: 2px solid red;
-  margin: 3rem;
+  margin: 1rem;
   /* overflow: hidden; */
   /* min-width: 280px; */
 }
@@ -32,6 +32,7 @@
   align-items: center;
   outline: 2px solid green;
   gap: 1em;
+  /* margin: 5px; */
 }
 
 .container-contato h2 {
@@ -52,6 +53,8 @@
   font-size: clamp(0.8rem, 2vw, 1.5rem);
   outline: 2px solid purple;
   font-weight: bold;
+  word-break: break-all;
+  /* min-width: 1px; */
   /* padding: 0 10px; */
   /* p {
     font-size: clamp(1em, 1em + 1vw, 1.5emm);    

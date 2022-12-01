@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   text-decoration: none;
   box-sizing: border-box;
 }
@@ -47,10 +47,15 @@
   outline: 2px solid red;
 }
 .container-contato p {
-  font-size: 1.5rem;
+  /* font-size: 0.5rem; */
+  font-size: clamp(0.5rem, 1.5rem + 2vw, 1.5rem);
   outline: 2px solid purple;
   font-weight: bold;
   /* padding: 0 10px; */
+  /* p {
+    font-size: clamp(1em, 1em + 1vw, 1.5emm);    
+    }
+    tam */
 }
 footer h3 {
   display: flex;

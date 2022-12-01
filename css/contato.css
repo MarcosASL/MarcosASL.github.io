@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  /* font-size: 1.2rem; */
   text-decoration: none;
   box-sizing: border-box;
 }
@@ -12,68 +11,45 @@
   padding: 0 auto;
   justify-content: center;
   height: 84vh;
-  /* align-items: flex-end; */
   align-items: center;
-  /* flex-direction: row; */
   flex-direction: column;
-  /* background-image: url(assets/bg-white.png); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* gap: 0em 20em; */
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   margin: 1rem;
-  /* overflow: hidden; */
-  /* min-width: 280px; */
 }
 .textos {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  outline: 2px solid green;
+  /* outline: 2px solid green; */
   gap: 1em;
-  /* margin: 5px; */
 }
 
 .container-contato h2 {
   display: inline-block;
-  /* font-size: 5.5rem; */
   font-size: clamp(3.5rem, 6vw, 5.5rem);
-  /* text-transform: uppercase; */
   word-break: break-all;
-  /* font-weight: bold; */
-  /* margin-top: -80px; */
   background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 .container-contato p {
-  /* font-size: 0.5rem; */
   font-size: clamp(1rem, 2vw, 1.5rem);
-  outline: 2px solid purple;
+  /* outline: 2px solid purple; */
   font-weight: bold;
   word-break: break-all;
-  /* min-width: 1px; */
-  /* padding: 0 10px; */
-  /* p {
-    font-size: clamp(1em, 1em + 1vw, 1.5emm);    
-    }
-    tam */
 }
 footer h3 {
   display: flex;
   justify-content: space-evenly;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   font-size: 1rem;
   font-weight: 100;
-  /* word-break: break-all; */
-  /* margin-left: 30%; */
-  /* padding-inline-end: 2ch; */
   padding-top: 4.8em;
 }
 .container-contato span {
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   font-size: 3rem;
 }
 .container-contato a {
@@ -82,7 +58,6 @@ footer h3 {
   border-radius: 5px;
   display: inline-block;
   padding: 0.62em;
-  /* font-size: 18px; */
   text-transform: uppercase;
   font-weight: bold;
   margin: 15px 100px;
@@ -100,16 +75,3 @@ body {
   background-attachment: fixed; /*n rola a pagina*/
   background-position: bottom;
 }
-
-/*RESPONSIVO*/
-/* @media (max-width: 750px) {
-  .textos h2 {
-    font-size: 3rem;
-  }
-  .textos p {
-    font-size: 0.8rem;
-  }
-  h3 {
-    font-size: 1rem;
-  }
-} */

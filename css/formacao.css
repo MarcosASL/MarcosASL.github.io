@@ -184,7 +184,8 @@
 .img-skill-div {
   /* display: inline-block; */
   /* display: flex; */
-  display: block;
+  /* display: block; */
+  display: inline-block;
   position: relative;
   margin: 0 auto;
   /* padding: 10px; */
@@ -194,12 +195,14 @@
 }
 .img-skill-div span {
   /* color: #f00; */
-  display: block;
-  padding: 0.62em;
+  /* display: block; */
+  display: inline-block;
+  padding: 0.4em;
   /* color: #f00; */
   font-weight: bold;
+  font-size: 2vh;
   position: absolute;
-  bottom: 6em;
+  bottom: 5em;
   left: 50%;
   /* right: 2em; */
   /* -webkit-border-radius: 0 0 5px 5px; */
@@ -211,9 +214,13 @@
   transform: translate(-50%, 0%);
   background: RGBA(224, 255, 255, 1);
   color: #000000;
+  /* float: left; */
+  /* width: 100%; */
 }
 
 .img-skill-div:hover span {
+  display: inline-block;
+  /* float: left; */
   /* border: 1px solid #f00; */
   opacity: 1;
   /* -moz-opacity: 1; */
@@ -221,6 +228,8 @@
 
   box-shadow: 0 0 13px 5px RGBA(240, 248, 255, 1);
   border-radius: 5px;
+  /* float: left;
+  width: 100%; */
 }
 
 /* ----------------------------------------------------responsivo-------------------------------------------------- */

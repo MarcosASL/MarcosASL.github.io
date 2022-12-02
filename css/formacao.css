@@ -9,6 +9,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr; /*aqui é 2fr para ficar alinhado ao texto de cima de h1*/
+  grid-template-rows: 1fr 1fr;
   gap: 100px;
   position: relative;
 }
@@ -36,6 +37,7 @@
   margin-bottom: 60px;
   max-width: 40ch; /*defini o tamanho maximo dele de 40 caracteres, a linha desse texto vai ter 40caracteres!*/
   color: #a3a3a3;
+  /* grid-column: 1/2; */
 }
 
 .formacao-texto strong {
@@ -141,19 +143,30 @@
 }
 
 /*cards das habilidades*/
+.cursos-idiomas {
+  outline: 2px solid yellow;
+  grid-column: 2;
+}
+
 .card-habilidades-container-geral {
   /* display: flex; */
   outline: 2px solid red;
-  height: 40vh;
+  /* height: 40vh; */
+  /* gap: 50px; */
 }
 
 .card-habilidade {
-  filter: invert();
   outline: 2px solid pink;
+  /* gap: 50px; */
+  margin: 0 0.62em;
 }
 .card-habilidade img {
-  max-width: 60px;
-  /* outline: 2px solid red; */
+  filter: invert();
+  display: inline-block;
+  max-width: 80px;
+  outline: 2px solid red;
+  /* gap: 50px; */
+  margin: 1em;
 }
 /* ----------------------------------------------------responsivo-------------------------------------------------- */
 @media (max-width: 800px) {

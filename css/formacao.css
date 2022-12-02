@@ -151,7 +151,9 @@
 .card-habilidades-container-geral {
   /* display: inline-block; */
   display: flex;
+  flex-wrap: wrap;
   outline: 2px solid red;
+  align-content: center;
   /* height: 40vh; */
   /* gap: 50px; */
 }
@@ -230,6 +232,16 @@
   border-radius: 5px;
   /* float: left;
   width: 100%; */
+}
+
+.card-habilidades-container-geral h3 {
+  display: inline-block;
+  font-size: 3vh;
+  /* display: block; */
+  border: 1px solid yellow;
+  /* transform: translate(-960%, 0%); */
+  bottom: 80em;
+  margin-top: 20%;
 }
 
 /* ----------------------------------------------------responsivo-------------------------------------------------- */

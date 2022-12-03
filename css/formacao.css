@@ -9,7 +9,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr; /*aqui é 2fr para ficar alinhado ao texto de cima de h1*/
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   gap: 100px;
   position: relative;
 }

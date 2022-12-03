@@ -145,7 +145,7 @@
 
 /*cards das habilidades*/
 .cursos-idiomas {
-  outline: 2px solid yellow;
+  /* outline: 2px solid yellow; */
   grid-column: 2;
 }
 
@@ -154,7 +154,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column-reverse;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   align-content: center;
   justify-content: space-around;
   /* height: 40vh; */
@@ -167,7 +167,7 @@
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: flex-start;
-  outline: 2px solid blue;
+  /* outline: 2px solid blue; */
   gap: 15px;
   /* margin: 0 0.62em; */
   /* height: 50vh; */
@@ -241,7 +241,7 @@
   display: inline-block;
   font-size: 3vh;
   /* display: block; */
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   /* transform: translate(-960%, 0%); */
   bottom: 80em;
   /* margin-top: 20%; */

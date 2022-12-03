@@ -84,6 +84,19 @@
 .nav__link:active {
   transform: translateY(3px);
 }
+
+/*MENU HAMBURGER-------------------------------*/
+#humburguer {
+  display: block;
+  width: 4vh;
+  /* outline: 2px solid red; */
+  /* text-align: center; */
+  display: none;
+}
+#humburguer:hover {
+  /* width: 4.2vh; */
+  outline: 1px solid red;
+}
 /*-----------------------------------------------------RESPONSIVO-----------------------------------------------------------*/
 @media (max-width: 990px) {
   .logo {
@@ -92,4 +105,11 @@
 }
 @media (max-width: 730px) {
   /* menu hamburguer aqui */
+  #humburguer {
+    display: block;
+  }
+  .navegacao {
+    display: none;
+  }
+  /*criar o menu navegação adequadro par ao hambuguer*/
 }

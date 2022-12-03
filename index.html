@@ -23,7 +23,7 @@
       <div class="logo">
         <a href="./"> <img src="./img/LOGO-so-m.svg" alt=""></a>
       </div>
-      <nav class="navegacao">
+      <nav class="navegacao" id="navegacaolista">
         <ul class="header-menu">
           <li class="nav_item"><a href="#quem-sou" class="nav__link">Quem sou</a></li>
           <li class="nav_item"><a href="#experiencia" class="nav__link">Experiência</a></li>
@@ -36,6 +36,7 @@
         <input type="checkbox" class="toggle__input sr-only">
         <span class="toggle__item"></span>
       </label>
+      <a id="humburguer" onclick="clickMenu()" href="#"> <img src="./img/menu/menu-svgrepo-com1.svg" alt=""></a>
     </div>
   </header>
 
@@ -457,6 +458,17 @@
 
 
   <script src="./js/script.js"></script>
+
+  <script>
+    function clickMenu() {
+      if (navegacaolista.style.display == 'block') {
+        navegacaolista.style.display = 'none'
+      } else {
+        navegacaolista.style.display = 'block'
+      }
+    }
+  </script>
+
 </body>
 
 </html>

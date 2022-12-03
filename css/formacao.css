@@ -132,8 +132,9 @@
 }
 
 .formacao-extra span {
-  color: #8f8f8f;
-  font-size: 1rem;
+  color: #e0e0e0;
+  font-size: 0.9rem;
+  /* font-weight: inherit; */
 }
 
 .cursos ul {

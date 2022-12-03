@@ -85,14 +85,13 @@
   transform: translateY(3px);
 }
 /*-----------------------------------------------------RESPONSIVO-----------------------------------------------------------*/
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .header {
     flex-direction: column;
     gap: 2.5em;
     padding: 1.25em;
   }
   .header a {
-    /* background: #f5f5f5; */
     border-radius: 0.25em;
   }
-}
+} */

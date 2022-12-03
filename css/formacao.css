@@ -152,6 +152,7 @@
   /* display: inline-block; */
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column-reverse;
   outline: 2px solid red;
   align-content: center;
   justify-content: space-around;
@@ -242,7 +243,7 @@
   border: 1px solid yellow;
   /* transform: translate(-960%, 0%); */
   bottom: 80em;
-  margin-top: 20%;
+  /* margin-top: 20%; */
 }
 
 /* ----------------------------------------------------responsivo-------------------------------------------------- */

@@ -21,6 +21,7 @@
 }
 .quem-sou-texto h2 {
   /* border: solid 2px black; */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   display: inline-block;
   font-size: 5.5rem;
   text-transform: uppercase;
@@ -33,6 +34,7 @@
 
 .quem-sou-texto p {
   /* margin: 20px; */
+  /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
   margin-top: 20px;
   font-size: 1.5rem;
   line-height: 1.33;

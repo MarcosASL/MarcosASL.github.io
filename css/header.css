@@ -80,7 +80,7 @@
   position: relative;
   z-index: 10;
 }
-/*ao click no botao*/
+/*EFEITO ao click no botao*/
 .nav__link:active {
   transform: translateY(3px);
 }
@@ -93,6 +93,13 @@
   /* text-align: center; */
   display: none;
 }
+/*Efeito de click no menu hamburguer*/
+#humburguer:active {
+  transform: translateY(3px);
+}
+/* .nav__link:active {
+  transform: translateY(3px); */
+
 #humburguer:hover {
   /* width: 4.2vh; */
   /* outline: 1px solid red; */

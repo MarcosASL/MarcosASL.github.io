@@ -112,13 +112,26 @@
     display: none;
   }
   /*criar o menu navegação adequadro par ao hambuguer*/
-  #navegacaolista {
+  .navegacao {
     background-color: aqua;
     /* display: flex; */
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    /* height: calc(100vh - 70px); */
+    height: 70px;
+    z-index: 1000;
+  }
+  .header-menu {
+    display: flex;
+    background-color: pink;
+    flex-direction: column;
+    align-content: flex-end;
   }
 }
 @media (min-width: 731px) {
   #navegacaolista {
-    display: flex !important;
+    display: block !important;
   }
 }

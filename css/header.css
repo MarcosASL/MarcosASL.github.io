@@ -114,7 +114,7 @@
   /*criar o menu navegação adequadro par ao hambuguer*/
   #navegacaolista {
     background-color: aqua;
-    display: flex;
+    /* display: flex; */
   }
 }
 @media (min-width: 731px) {

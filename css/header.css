@@ -125,9 +125,12 @@
   }
   .header-menu {
     display: flex;
-    background-color: pink;
+    /* background-color: pink; */
     flex-direction: column;
     align-content: flex-end;
+    backdrop-filter: blur(40px) saturate(200%);
+    -webkit-backdrop-filter: blur(40px) saturate(200%);
+    background-color: rgba(20, 20, 20, 0.68);
   }
 }
 @media (min-width: 731px) {

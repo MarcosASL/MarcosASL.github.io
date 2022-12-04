@@ -95,7 +95,8 @@
 }
 #humburguer:hover {
   /* width: 4.2vh; */
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
+  border: solid 1px transparent;
 }
 /*-----------------------------------------------------RESPONSIVO-----------------------------------------------------------*/
 @media (max-width: 990px) {

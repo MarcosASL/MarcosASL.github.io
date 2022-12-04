@@ -116,7 +116,7 @@
     background-color: aqua;
     /* display: flex; */
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     top: 70px;
     right: 0px;
     /* height: calc(100vh - 70px); */

@@ -7,15 +7,6 @@
   gap: 100px;
   align-items: center;
 }
-/* .introducao img {
-  display: block;
-  width: 700pt;
-  height: 500px;
-} */
-
-/*TENTANDO EFEITO NA foto*/
-
-/*TENTANDO EFEITO NA foto*/
 
 /*efeito gradiente no texto*/
 .texto-profissao h1 {
@@ -51,8 +42,6 @@
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
-  /* background-color: #2fa0fb; */
-  /* color: black; */
 }
 .texto-profissao a:hover {
   transition: all 0.3s ease;
@@ -76,19 +65,6 @@
     -webkit-filter: hue-rotate(-360deg);
   }
 }
-
-/*ABAIXO É O DETALHE POR TRÁS DA LETRA*/
-/* .introducao h1::before {
-  content: " ";
-  display: block;
-  width: 130px;
-  height: 100px;
-  background: url("../img/detalhe.svg") no-repeat center;
-  position: absolute;
-  top: -15px;
-  left: -40px;
-  z-index: -1;
-} */
 
 /*--------------------------------------------------------RESPONSIVO---------------------------------------------------*/
 @media (max-width: 1000px) {

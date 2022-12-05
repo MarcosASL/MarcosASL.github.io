@@ -89,20 +89,14 @@
 #humburguer {
   display: block;
   width: 4vh;
-  /* outline: 2px solid red; */
-  /* text-align: center; */
   display: none;
 }
 /*Efeito de click no menu hamburguer*/
 #humburguer:active {
   transform: translateY(3px);
 }
-/* .nav__link:active {
-  transform: translateY(3px); */
 
 #humburguer:hover {
-  /* width: 4.2vh; */
-  /* outline: 1px solid red; */
   border: solid 1px transparent;
 }
 /*-----------------------------------------------------RESPONSIVO-----------------------------------------------------------*/
@@ -121,28 +115,20 @@
   }
   /*criar o menu navegação adequadro par ao hambuguer*/
   .navegacao {
-    /* background-color: aqua; */
-    /* display: flex; */
     position: absolute;
-    /* width: 100%; */
     top: 70px;
     right: 0px;
-    /* height: calc(100vh - 70px); */
     height: 70px;
     z-index: 1000;
   }
   .header-menu {
     display: flex;
-    /* background-color: pink; */
     flex-direction: column;
     align-content: flex-end;
     backdrop-filter: blur(40px) saturate(200%);
     -webkit-backdrop-filter: blur(40px) saturate(200%);
     background-color: rgba(20, 20, 20, 1.68);
     box-shadow: 0px 0px 10px #0090f7;
-    /* border-radius: 0.125rem; */
-    /* outline: 1px solid red; */
-    border-bottom: #0090f7;
   }
 }
 @media (min-width: 731px) {

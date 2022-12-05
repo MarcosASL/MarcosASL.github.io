@@ -7,15 +7,18 @@
   gap: 6.25em;
   align-items: center;
 }
+.introducao img {
+  /* background: #f35626; */
+}
 
 /*efeito gradiente no texto*/
 .texto-profissao h1 {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 6rem;
+  font-size: clamp(0.9rem, 5vw, 5.5rem);
   font-weight: 100;
   letter-spacing: 2px;
   /* line-height: 1.125; */
-  margin-bottom: 1.875em;
+  margin-bottom: 0.3em;
   /* color: #2fa0fb; */
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
@@ -44,6 +47,7 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .texto-profissao a:hover {
   transition: all 0.3s ease;
   box-shadow: 5px 5px 5px;

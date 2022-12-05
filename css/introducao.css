@@ -1,10 +1,10 @@
 .introducao {
   max-width: 1200px;
-  padding: 80px 20px;
+  padding: 5em 1.25em;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 100px;
+  gap: 6.25em;
   align-items: center;
 }
 

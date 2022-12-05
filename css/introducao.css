@@ -14,10 +14,10 @@
   font-size: 6rem;
   font-weight: 100;
   letter-spacing: 2px;
-  line-height: 1.125;
+  /* line-height: 1.125; */
   margin-bottom: 30px;
   /* text-align: center; */
-  color: #2fa0fb;
+  /* color: #2fa0fb; */
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
   background-clip: text;
@@ -28,9 +28,7 @@
 .texto-profissao p {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
-  /* font: 14.5rem; */
-  /* color: #525252; */
-  color: #2fa0fb;
+  /* color: #2fa0fb; */
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
   background-clip: text;
@@ -40,7 +38,7 @@
 }
 .texto-profissao a {
   display: inline-block;
-  border: solid 2px black;
+  border: solid 2px #2fa0fb;
   border-radius: 5px;
   padding: 08px 08px;
   font-size: 18px;
@@ -52,6 +50,7 @@
   box-shadow: 5px 5px 5px;
 }
 
+/*animação das cores*/
 @-webkit-keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);

@@ -7,9 +7,6 @@
   gap: 6.25em;
   align-items: center;
 }
-.introducao img {
-  /* background: #f35626; */
-}
 
 /*efeito gradiente no texto*/
 .texto-profissao h1 {
@@ -29,7 +26,7 @@
 }
 .texto-profissao p {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 1.5vw, 3.5rem);
   /* color: #2fa0fb; */
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
@@ -43,7 +40,7 @@
   border: solid 2px #2fa0fb;
   border-radius: 5px;
   padding: 08px 08px;
-  font-size: 18px;
+  font-size: clamp(0.7rem, 1vw, 3.5rem);
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -73,31 +70,31 @@
 }
 
 /*--------------------------------------------------------RESPONSIVO---------------------------------------------------*/
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
   }
-}
+} */
 
 @media (max-width: 800px) {
-  .introducao {
+  /* .introducao {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-  }
+  } */
 
-  .introducao h1 {
+  /* .introducao h1 {
     font-size: 2rem;
-  }
+  } */
 
-  .introducao h1::before {
+  /* .introducao h1::before {
     width: 30px;
     height: 10px;
     left: 0px;
-  }
+  } */
 }
 
-@media (max-width: 400px) {
-  .introducao img {
+@media (max-width: 600px) {
+  .introducao {
     grid-template-columns: 1fr;
   }
   .introducao img {

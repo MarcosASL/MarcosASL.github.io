@@ -20,8 +20,10 @@
   color: #2fa0fb;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: hue 10s infinite linear;
+  animation: hue 10s infinite linear;
 }
 .texto-profissao p {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -31,8 +33,10 @@
   color: #2fa0fb;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: hue 10s infinite linear;
+  animation: hue 10s infinite linear;
 }
 .texto-profissao a {
   display: inline-block;

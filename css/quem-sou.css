@@ -1,10 +1,10 @@
 .quem-sou-container-geral {
   display: grid;
   max-width: 1200px;
-  padding: 120px 20px;
+  padding: 7.5em 1.25em;
   margin: 0 auto; /*0 auto*/
   grid-template-columns: 1fr 2fr;
-  gap: 100px;
+  gap: 6.25em;
   /* background: #00bfff; */
   /* position: relative; */
   /* border: solid 2px black; */
@@ -13,10 +13,10 @@
   /* border: solid 2px black; */
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   display: inline-block;
-  font-size: 5.5rem;
+  font-size: 5rem;
   text-transform: uppercase;
   word-break: break-all;
-  margin-top: -80px;
+  margin-top: -1em;
   background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -26,11 +26,11 @@
 .quem-sou-texto p {
   /* margin: 20px; */
   /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
-  margin-top: 20px;
+  margin-top: 1.25em;
   font-size: 1.5rem;
   line-height: 1.33;
-  margin-bottom: 60px;
-  max-width: 50ch;
+  margin-bottom: 3.75em;
+  max-width: 650px;
   /* color: #a3a3a3; */
   color: black;
 }

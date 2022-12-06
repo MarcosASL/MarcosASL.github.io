@@ -13,7 +13,8 @@
   /* border: solid 2px black; */
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   display: inline-block;
-  font-size: 5rem;
+  /* font-size: 5rem; */
+  font-size: clamp(3rem, 5vw, 5.5rem);
   text-transform: uppercase;
   word-break: break-all;
   margin-top: -1em;
@@ -28,6 +29,7 @@
   /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
   margin-top: 1.25em;
   font-size: 1.5rem;
+  font-size: clamp(1rem, 1.5vw, 3.5rem);
   line-height: 1.33;
   margin-bottom: 3.75em;
   max-width: 650px;
@@ -164,3 +166,5 @@
   background-color: #4078c0;
   background-image: url("https://benhodgson.net/img/social/github.svg");
 }
+
+/*RESPONSIVO-----------------------------------------------------------*/

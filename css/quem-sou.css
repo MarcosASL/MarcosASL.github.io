@@ -59,6 +59,7 @@
   align-self: center;
   justify-items: center; */
 }
+
 .enviar-email-button {
   background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
   border: solid 2px black;
@@ -169,13 +170,26 @@
     padding-bottom: 9%;
   }
 }
-
 @media (max-width: 600px) {
   .quem-sou-container-geral {
-    grid-template-columns: 1fr;
-    justify-items: center;
+    grid-template-columns: 1fr; /*padrao*/
+    justify-items: center; /*padrao*/
+    padding: 1.25em; /*padrao*/
+    gap: 0;
+  }
+  .quem-sou-texto p {
+    margin-bottom: 1.75em;
   }
   .img-perfil img {
     display: none;
+  }
+  .icones-redes {
+    color: #405de6;
+    background-color: #00f793;
+  }
+  .icones-redes {
+    /* width: 50%; */
+    max-width: 50%;
+    /* min-width: 50%; */
   }
 }

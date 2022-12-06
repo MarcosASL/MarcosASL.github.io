@@ -11,7 +11,7 @@
 /*efeito gradiente no texto*/
 .texto-profissao h1 {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: clamp(0.9rem, 5vw, 5.5rem);
+  font-size: clamp(2rem, 5vw, 5.5rem);
   font-weight: 100;
   letter-spacing: 2px;
   /* line-height: 1.125; */

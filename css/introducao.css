@@ -96,6 +96,7 @@
 @media (max-width: 600px) {
   .introducao {
     grid-template-columns: 1fr;
+    justify-items: center;
   }
   .introducao img {
     display: none;

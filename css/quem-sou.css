@@ -98,12 +98,7 @@
   margin: 1% 2%;
   padding-bottom: 19%;
 }
-@media all and (min-width: 640px) {
-  .icon {
-    width: 9%;
-    padding-bottom: 9%;
-  }
-}
+
 .icon:last-of-type {
   margin-right: 0;
 }
@@ -168,3 +163,19 @@
 }
 
 /*RESPONSIVO-----------------------------------------------------------*/
+@media all and (min-width: 640px) {
+  .icon {
+    width: 9%;
+    padding-bottom: 9%;
+  }
+}
+
+@media (max-width: 600px) {
+  .quem-sou-container-geral {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .img-perfil img {
+    display: none;
+  }
+}

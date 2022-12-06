@@ -166,8 +166,8 @@
 /*RESPONSIVO-----------------------------------------------------------*/
 @media all and (min-width: 640px) {
   .icon {
-    width: 9%;
-    padding-bottom: 9%;
+    width: 8%; /*9%*/
+    padding-bottom: 8%; /*9%*/
   }
 }
 @media (max-width: 600px) {
@@ -177,9 +177,7 @@
     padding: 1.25em; /*padrao*/
     gap: 0;
   }
-  .quem-sou-texto p {
-    margin-bottom: 1.75em;
-  }
+
   .img-perfil img {
     display: none;
   }
@@ -188,8 +186,22 @@
     background-color: #00f793;
   }
   .icones-redes {
-    /* width: 50%; */
     max-width: 50%;
-    /* min-width: 50%; */
+  }
+  .social-icons {
+    /* width: 0%; */
+    /* max-width: 20%; */
+    /* min-width: 40%; */
+    /* gap: 80px; */
+  }
+  .icon {
+    margin: 5px;
+    /* width: 29px; */
+    max-width: 50%;
+  }
+}
+@media (max-width: 1080px) {
+  .enviar-email-button {
+    display: none;
   }
 }

@@ -1,13 +1,3 @@
-/* .quem-sou {
-  background: #e3ffef;
-  background: #ffe742;
-  background: #87fffb;
-  background: #e1f1ff;
-  background: #ebebff;
-  background: #6c6efd;
-  background: #cdcdff;
-  background: #2fa0fb;
-} */
 .quem-sou-container-geral {
   display: grid;
   max-width: 1200px;
@@ -29,6 +19,7 @@
   margin-top: -80px;
   background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 

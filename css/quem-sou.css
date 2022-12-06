@@ -62,11 +62,11 @@
   border: solid 2px black;
   border-radius: 5px;
   display: inline-block;
-  padding: 10px;
+  padding: 0.625em;
   /* font-size: 18px; */
   text-transform: uppercase;
   font-weight: bold;
-  margin: 15px 100px;
+  margin: 0.938em 6.25em;
   color: black;
 }
 

@@ -33,7 +33,7 @@ svg {
 }
 
 .card {
-  display: inline-block;
+  /* display: inline-block; */
   width: 100%;
   height: 100%;
   cursor: pointer;
@@ -124,8 +124,8 @@ svg {
   position: relative;
 }
 .back h2 {
-  margin-top: 0.375em;
-  margin-bottom: 1.125em;
+  margin-top: 6px;
+  margin-bottom: 18px;
 }
 .back .reviews {
   display: flex;

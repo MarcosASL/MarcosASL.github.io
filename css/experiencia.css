@@ -240,7 +240,8 @@ svg {
 }
 .exp-e-img h3 {
   display: inline-block;
-  font-size: 4.5rem;
+  /* font-size: 4.5rem; */
+  font-size: clamp(3rem, 4vw, 5.5rem);
   text-transform: uppercase;
   word-break: break-all;
   color: #2fa0fb;
@@ -333,6 +334,19 @@ svg {
 
 /* --------------------------------------------------------responsivo----------------------------------------------------- */
 
+@media (max-width: 1020px) {
+  .exp-e-img img {
+    display: none;
+  }
+  .subtitulo {
+    display: none;
+  }
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
 @media (max-width: 800px) {
   .subtitulo {
     font-size: 3rem;
@@ -345,23 +359,19 @@ svg {
   .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
+    padding-top: 3em;
   }
   .experiencia .subtitulo {
     color: #141414;
   }
   .experiencia-texto {
     font-size: 1.25rem;
+    font-size: clamp(1rem, 1vw, 3.5rem);
   }
   .empresa-ano {
     position: initial; /*mudei o position do ano, pois ele tinha subido conforme diminui a tela*/
     order: 1; /*p o ano ficar abaixo dos elementos do container, se fosse 0 ele ficaria como primeiro, como nenhum outro elemento tem ordem definida, qui o 1 seria o ultimo elemento, é como se ele pegasse o meu <span>ano no html e jogasse para baixo do codigo  */
     width: initial; /*coloquei os atributos do ano para o valor inicial dele*/
     text-align: left;
-  }
-}
-
-@media (max-width: 400px) {
-  .empresa {
-    grid-template-columns: 1fr;
   }
 }

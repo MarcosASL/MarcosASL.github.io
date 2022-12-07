@@ -75,6 +75,10 @@
   .introducao {
     grid-template-columns: 1fr;
     justify-items: center;
+    /* padding: 5em 0.5em; */
+    padding: 3em;
+    padding-top: 5em;
+    /* padding: 50px; */
   }
   .introducao img {
     display: none;

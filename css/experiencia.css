@@ -130,18 +130,21 @@ svg {
 .back .reviews {
   display: flex;
   align-items: center;
-  margin-bottom: 12px;
+  margin-bottom: 0.75em;
   cursor: pointer;
 }
-.back .reviews p {
+/* .back .reviews p {
   color: #c4c4c4;
   font-weight: 300;
   margin: 1px 0 0 6px;
   transition: 0.3s ease-in-out;
-}
-.back .reviews:hover p {
+  outline: 2px solid greenyellow;
+} */
+
+/* .back .reviews:hover p {
   color: #555;
-}
+} */
+
 .back li {
   line-height: 22px;
   margin: 2px 0 6px 0;

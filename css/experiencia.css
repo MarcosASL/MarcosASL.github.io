@@ -251,12 +251,6 @@ svg {
   outline: 2px solid greenyellow;
 }
 
-.empresa-titulo {
-  font-size: 1.125rem;
-  line-height: 1.1;
-  font-weight: bold; /*os titulos da seguna ccoluna n estavam em bold*/
-}
-
 .empresa-habilidades {
   display: flex; /*agora o texto esta em linha*/
   flex-wrap: wrap;

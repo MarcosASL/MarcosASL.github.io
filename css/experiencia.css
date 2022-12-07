@@ -251,17 +251,6 @@ svg {
   outline: 2px solid greenyellow;
 }
 
-.empresa-ano {
-  /* background: blue; */
-  position: absolute; /*removi o ano das empresas totalmente do fluxo, elas estão 'flutando'*/
-  top: 22px;
-  left: -100px;
-  text-align: right;
-  width: 80px;
-  color: #525252;
-  font-size: 0.875rem;
-}
-
 .empresa-titulo {
   font-size: 1.125rem;
   line-height: 1.1;

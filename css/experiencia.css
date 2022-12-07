@@ -257,12 +257,6 @@ svg {
   font-weight: bold; /*os titulos da seguna ccoluna n estavam em bold*/
 }
 
-.empresa-texto {
-  font-size: 0.875rem;
-  color: #525252;
-  line-height: 1.4;
-}
-
 .empresa-habilidades {
   display: flex; /*agora o texto esta em linha*/
   flex-wrap: wrap;

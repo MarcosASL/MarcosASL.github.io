@@ -164,10 +164,12 @@
 }
 
 /*RESPONSIVO-----------------------------------------------------------*/
-@media all and (min-width: 640px) {
+@media all and (min-width: 40px) {
+  /*640*/
   .icon {
-    width: 8%; /*9%*/
-    padding-bottom: 8%; /*9%*/
+    width: 9%; /*9%*/
+    padding-bottom: 9%; /*9%*/
+    /* min-width: 9%; */
   }
 }
 @media (max-width: 600px) {
@@ -184,9 +186,6 @@
   .icones-redes {
     color: #405de6;
     background-color: #00f793;
-  }
-  .icones-redes {
-    max-width: 50%;
   }
   .social-icons {
     /* width: 0%; */

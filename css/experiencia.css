@@ -251,17 +251,6 @@ svg {
   outline: 2px solid greenyellow;
 }
 
-.empresa::before {
-  content: "";
-  display: block;
-  width: 4px;
-  height: 20px;
-  background: linear-gradient(#b6f829, #67dd0a);
-  position: absolute; /*meu elemento verde agora saiu do fluxo com isso*/
-  top: 20px;
-  left: -4px;
-}
-
 .empresa-ano {
   /* background: blue; */
   position: absolute; /*removi o ano das empresas totalmente do fluxo, elas estão 'flutando'*/

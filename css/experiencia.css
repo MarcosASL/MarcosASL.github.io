@@ -289,6 +289,7 @@ svg {
   /* border: none; */
   transition: background-color 0.5s linear, color 0.5s linear;
   padding: 0.625em 1.25em;
+  /* border: solid 2px red; */
 }
 .botao-mais-projetos a:hover {
   background-color: #0dd;

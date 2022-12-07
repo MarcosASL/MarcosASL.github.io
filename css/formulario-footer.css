@@ -132,14 +132,14 @@ textarea:focus {
 } */
 
 /*botão enviar*/
-.btn {
+.btn-footer {
   /* width: 138px; */
   /* height: 44px; */
   /* -moz-border-radius: 4px; */
   /* -webkit-border-radius: 4px; */
-  border-radius: 4px;
+  /* border-radius: 4px; */
   /* float: right; */
-  border: 1px solid white;
+  /* border: 1px solid white; */
   background: #2fa0fb;
   /* background: -webkit-gradient(
     linear,
@@ -168,7 +168,7 @@ textarea:focus {
 }
 
 /*botão enviar hover*/
-.btn:hover {
+.btn-footer:hover {
   border: 1px solid white;
   text-shadow: #333333 0 1px 0;
   background: #0090f7;
@@ -188,7 +188,7 @@ textarea:focus {
 }
 
 /*botao de enviar, pressionado!*/
-.btn:active {
+.btn-footer:active {
   margin-top: 1px;
   text-shadow: #333333 0 -1px 0;
   border: 1px solid white;

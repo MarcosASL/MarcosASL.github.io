@@ -251,8 +251,8 @@ svg {
   outline: 2px solid greenyellow;
 }
 
+/* titulo 'EXPERIENCIA'*/
 .subtitulo {
-  /* titulo 'EXPERIENCIA'*/
   font-size: 9.5rem;
   line-height: 1;
   text-transform: uppercase;
@@ -286,10 +286,9 @@ svg {
   /* margin-right: 50%; */
   /* background-color: #0dd; */
   background-color: #0090f7;
-
   /* border: none; */
   transition: background-color 0.5s linear, color 0.5s linear;
-  padding: 10px 20px;
+  padding: 0.625em 1.25em;
 }
 .botao-mais-projetos a:hover {
   background-color: #0dd;

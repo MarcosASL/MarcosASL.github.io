@@ -251,13 +251,6 @@ svg {
   outline: 2px solid greenyellow;
 }
 
-.empresa-habilidades {
-  display: flex; /*agora o texto esta em linha*/
-  flex-wrap: wrap;
-  gap: 10px;
-  align-content: start;
-}
-
 .empresa-habilidades li {
   font-size: 0.875rem;
   line-height: 1.4;

@@ -368,10 +368,4 @@ svg {
     font-size: 1.25rem;
     font-size: clamp(1rem, 1vw, 3.5rem);
   }
-  .empresa-ano {
-    position: initial; /*mudei o position do ano, pois ele tinha subido conforme diminui a tela*/
-    order: 1; /*p o ano ficar abaixo dos elementos do container, se fosse 0 ele ficaria como primeiro, como nenhum outro elemento tem ordem definida, qui o 1 seria o ultimo elemento, é como se ele pegasse o meu <span>ano no html e jogasse para baixo do codigo  */
-    width: initial; /*coloquei os atributos do ano para o valor inicial dele*/
-    text-align: left;
-  }
 }

@@ -124,8 +124,8 @@ svg {
   position: relative;
 }
 .back h2 {
-  margin-top: 6px;
-  margin-bottom: 18px;
+  margin-top: 0.375em;
+  margin-bottom: 1em;
 }
 .back .reviews {
   display: flex;

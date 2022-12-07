@@ -14,7 +14,7 @@ svg {
   min-height: 25em;
   margin: 0.25em;
   perspective: 1000px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .active {
@@ -25,13 +25,11 @@ svg {
 }
 
 .container-cards-geral {
-  /* outline: 2px solid black; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  gap: 0px 20px;
-  /* display: flex; */
-  /* gap: 80px; */
+  gap: 0em 1.25em;
+  outline: 2px solid black;
 }
 
 .card {
@@ -44,6 +42,7 @@ svg {
   transform: translateZ(-100px);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   /* margin-right: 80px; */
+  outline: 2px solid red;
 }
 .card:after {
   content: "";
@@ -125,8 +124,8 @@ svg {
   position: relative;
 }
 .back h2 {
-  margin-top: 6px;
-  margin-bottom: 18px;
+  margin-top: 0.375em;
+  margin-bottom: 1.125em;
 }
 .back .reviews {
   display: flex;

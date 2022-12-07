@@ -145,9 +145,11 @@ svg {
   color: #555;
 } */
 
+/*todos textos dentro da card verso*/
 .back li {
-  line-height: 22px;
+  line-height: 2.4ch;
   margin: 2px 0 6px 0;
+  /* outline: 2px solid greenyellow; */
 }
 .back .btn {
   position: absolute;

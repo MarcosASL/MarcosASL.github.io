@@ -149,13 +149,14 @@ svg {
 .back li {
   line-height: 2.4ch;
   margin: 2px 0 6px 0;
-  /* outline: 2px solid greenyellow; */
 }
+
+/*botao amarelo do verso card*/
 .back .btn {
   position: absolute;
-  bottom: 16px;
+  bottom: 1em;
   width: calc(100% - 32px);
-  height: 56px;
+  height: 5.9ch; /*56px*/
   display: flex;
   align-items: center;
   justify-content: center;

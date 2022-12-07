@@ -8,11 +8,11 @@ svg {
 /*as duas fileiras de cards coluna 1e2*/
 .cardContainer {
   position: relative;
-  width: 300px;
-  height: 400px;
-  min-width: 300px;
-  min-height: 400px;
-  margin: 4px;
+  width: 18.75em;
+  height: 25em;
+  min-width: 18.75em;
+  min-height: 25em;
+  margin: 0.25em;
   perspective: 1000px;
   outline: 2px solid red;
 }

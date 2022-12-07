@@ -1,18 +1,12 @@
-/* TENTANDO CARD NOVO DOS PROJETOS */
-/* *,
-*:after,
-*:before {
-  box-sizing: border-box;
-} */
-
+/*detalhe seta do button yellow do card*/
 svg {
   margin: 0px;
   min-width: 24px;
   min-height: 24px;
 }
 
+/*as duas fileiras de cards coluna 1e2*/
 .cardContainer {
-  /* flex: 1; */
   position: relative;
   width: 300px;
   height: 400px;
@@ -20,6 +14,7 @@ svg {
   min-height: 400px;
   margin: 4px;
   perspective: 1000px;
+  outline: 2px solid red;
 }
 
 .active {

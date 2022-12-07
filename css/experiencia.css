@@ -348,21 +348,10 @@ svg {
 }
 
 @media (max-width: 800px) {
-  .subtitulo {
-    font-size: 3rem;
-    text-transform: capitalize; /*só aumenta a primeira letra*/
-    max-width: initial !important;
-  }
-}
-
-@media (max-width: 800px) {
   .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
     padding-top: 3em;
-  }
-  .experiencia .subtitulo {
-    color: #141414;
   }
   .experiencia-texto {
     font-size: 1.25rem;

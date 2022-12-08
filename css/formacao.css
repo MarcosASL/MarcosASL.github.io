@@ -283,6 +283,18 @@
     /*!gambiarra p afastar o card da direita*/
     margin-right: 2em;
   }
+  .cursos {
+    margin-bottom: 1.75em;
+  }
+  .formacao-container::after {
+    display: none;
+  }
+  .formacao-extra li {
+    font-size: clamp(1rem, 3vw, 5.5rem);
+  }
+  .cursos ul {
+    gap: 0.625em;
+  }
 }
 
 /* @media (max-width: 1145px) {

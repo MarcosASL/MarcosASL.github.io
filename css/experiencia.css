@@ -301,7 +301,7 @@ svg {
     margin-bottom: 7em;
   }
   .experiencia-texto {
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
     font-size: clamp(1rem, 1vw, 3.5rem);
   }
   .container-cards-geral {

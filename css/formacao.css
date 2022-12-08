@@ -257,8 +257,8 @@
 @media (max-width: 800px) {
   .formacao-container {
     grid-template-columns: 1fr;
-    padding: 60px 20px;
-    gap: 40px;
+    padding: 3.75em 1.25em;
+    gap: 2.5em;
   }
   .formacao .subtitulo {
     color: #ffffff;
@@ -270,6 +270,18 @@
   .formacao-extra h3::before {
     position: initial;
     margin-bottom: 10px;
+  }
+  .card-habilidades-container-geral h3 {
+    font-size: clamp(1rem, 3vw, 5.5rem);
+  }
+  .img-skill-div {
+    display: block;
+    width: 10%;
+  }
+  .card-habilidade {
+    /* margin: 0 2.62em;  */
+    /*!gambiarra p afastar o card da direita*/
+    margin-right: 2em;
   }
 }
 
@@ -285,7 +297,9 @@
     grid-template-columns: 1fr;
     /* gap: 40px; */
   }
-  .formacao {
+  .card-habilidades-container-geral {
+    gap: 2.125em;
+    align-items: center;
     /* display: grid;
     grid-template-columns: 1fr; */
     /* background: yellow; */

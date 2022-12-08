@@ -1,42 +1,16 @@
-/* @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
-body {
-  background: #2d3b36 url(http://www.luismruiz.com/img/blured.jpg) no-repeat
-    center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 100px;
-} */
-
 form {
   margin-left: auto;
   margin-right: auto;
-  /* width: 343px; */
-  /* height: 333px; */
   padding: 30px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  /* -moz-background-clip: padding;
-  -webkit-background-clip: padding-box; */
-  /* background-clip: padding-box; */
-  /* background: rgba(0, 0, 0, 0.5); */
   background-color: rgba(72, 72, 72, 0.4);
-  /* -moz-box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.5); */
-  /* box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.5); */
-  /* box-shadow: 0 0 13px 3px RGBA(240, 248, 255, 1); */
-  /* box-shadow: 0 0 13px 3px RGBA(135, 206, 250, 1); */
   box-shadow: 0 0 13px 3px RGBA(0, 191, 255, 1);
-
   overflow: hidden;
-  /* border: solid 2px red; */
 }
 
-/*balão grande de texto*/
+/*!balão grande de texto*/
 textarea {
-  /* background: rgba(255, 255, 255, 0.4)
-    url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px; */
   background: #fff;
   width: 276px;
   height: 110px;
@@ -50,17 +24,15 @@ textarea {
   display: block;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
-  /* color: #fff; */
   color: black;
   padding-left: 45px;
   padding-right: 20px;
   padding-top: 12px;
   margin-bottom: 20px;
   overflow: hidden;
-  /* border: solid 2px red; */
 }
 
-/*NOME E EMAIL BALÃO*/
+/*!NOME E EMAIL BALÃO*/
 input {
   width: 276px;
   height: 48px;
@@ -74,11 +46,9 @@ input {
   display: block;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
-  /* color: #fff; */
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 20px;
-  /* border: solid 2px red; */
 }
 
 input[type="submit"] {
@@ -86,27 +56,19 @@ input[type="submit"] {
 }
 
 input.name {
-  /* background: rgba(255, 255, 255, 0.4)
-    url(http://luismruiz.com/img/gemicon_name.png) no-repeat scroll 16px 16px; */
   padding-left: 45px;
 }
 
 input.email {
-  /* background: rgba(255, 255, 255, 0.4)
-    url(http://luismruiz.com/img/gemicon_email.png) no-repeat scroll 16px 20px; */
   padding-left: 45px;
 }
 
 input.message {
-  /* background: rgba(255, 255, 255, 0.4)
-    url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px; */
-  /* background: #fff; */
   padding-left: 45px;
 }
 
-/*cores do texto*/
+/*!cores do texto*/
 ::-webkit-input-placeholder {
-  /* color: #fff; */
   color: #8f8f8f;
 }
 
@@ -122,94 +84,21 @@ input.message {
   color: #fff;
 }
 
-/* input:focus,
-textarea:focus {
-  background-color: rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
-  -webkit-box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
-  box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
-  overflow: hidden;
-} */
-
-/*botão enviar*/
+/*!botão enviar*/
 .btn-footer {
-  /* width: 138px; */
-  /* height: 44px; */
-  /* -moz-border-radius: 4px; */
-  /* -webkit-border-radius: 4px; */
-  /* border-radius: 4px; */
-  /* float: right; */
-  /* border: 1px solid white; */
   background: #2fa0fb;
-  /* background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#6da5a3),
-    to(#416b68)
-  ); */
-  /* background: -webkit-linear-gradient(top, #6da5a3, #416b68);
-  background: -moz-linear-gradient(top, #6da5a3, #416b68);
-  background: -ms-linear-gradient(top, #6da5a3, #416b68);
-  background: -o-linear-gradient(top, #6da5a3, #416b68);
-  background-image: -ms-linear-gradient(top, #6da5a3 0%, #416b68 100%);
-  padding: 10.5px 21px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0,
-    inset rgba(255, 255, 255, 0.7) 0 1px 0;
-  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0,
-    inset rgba(255, 255, 255, 0.7) 0 1px 0;
-  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0,
-    inset rgba(255, 255, 255, 0.7) 0 1px 0;
-  text-shadow: #333333 0 1px 0;
-  color: #e1e1e1; */
 }
 
-/*botão enviar hover*/
+/*!botão enviar hover*/
 .btn-footer:hover {
   border: 1px solid white;
   text-shadow: #333333 0 1px 0;
   background: #0090f7;
-  /* background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#77b2b0),
-    to(#416b68)
-  );
-  background: -webkit-linear-gradient(top, #77b2b0, #416b68);
-  background: -moz-linear-gradient(top, #77b2b0, #416b68);
-  background: -ms-linear-gradient(top, #77b2b0, #416b68);
-  background: -o-linear-gradient(top, #77b2b0, #416b68);
-  background-image: -ms-linear-gradient(top, #77b2b0 0%, #416b68 100%); */
-  /* color: #fff; */
 }
 
-/*botao de enviar, pressionado!*/
+/*!botao de enviar pressionado!*/
 .btn-footer:active {
   margin-top: 1px;
   text-shadow: #333333 0 -1px 0;
   border: 1px solid white;
-  /* background: #6da5a3; */
-  /* background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#416b68),
-    to(#416b68)
-  );
-  background: -webkit-linear-gradient(top, #416b68, #609391);
-  background: -moz-linear-gradient(top, #416b68, #6da5a3);
-  background: -ms-linear-gradient(top, #416b68, #6da5a3);
-  background: -o-linear-gradient(top, #416b68, #6da5a3);
-  background-image: -ms-linear-gradient(top, #416b68 0%, #6da5a3 100%); */
-  /* color: #fff;
-  -webkit-box-shadow: rgba(255, 255, 255, 0) 0 1px 0,
-    inset rgba(255, 255, 255, 0.7) 0 1px 0;
-  -moz-box-shadow: rgba(255, 255, 255, 0) 0 1px 0,
-    inset rgba(255, 255, 255, 0.7) 0 1px 0;
-  box-shadow: rgba(255, 255, 255, 0) 0 1px 0,
-    inset rgba(255, 255, 255, 0.7) 0 1px 0; */
 }

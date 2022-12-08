@@ -6,11 +6,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr; /*aqui é 2fr para ficar alinhado ao texto de cima de h1*/
   gap: 6.25em;
-  outline: 2px solid purple;
-}
-
-.exp-text-cards {
-  outline: 2px solid greenyellow;
+  /* outline: 2px solid purple; */
 }
 
 .experiencia .subtitulo {
@@ -60,7 +56,6 @@ svg {
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   gap: 0em 1.25em;
-  outline: 2px solid black;
 }
 
 .card {
@@ -70,7 +65,6 @@ svg {
   transform-style: preserve-3d;
   transform: translateZ(-100px);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-  outline: 2px solid red;
 }
 .card:after {
   content: "";
@@ -167,7 +161,7 @@ svg {
   margin: 2px 0 6px 0;
 }
 
-/*botao amarelo do verso card*/
+/*!botao amarelo do verso card*/
 .back .btn {
   position: absolute;
   bottom: 1em;
@@ -199,10 +193,9 @@ svg {
   transition: all 0.3s ease-out;
 }
 
-/*pega toda segunda coluna do exp*/
+/*!pega toda segunda coluna do exp*/
 .exp-e-img {
   display: grid;
-  outline: 4px solid pink;
 }
 .exp-e-img h3 {
   display: inline-block;
@@ -214,7 +207,6 @@ svg {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  outline: 2px solid greenyellow;
 }
 
 /*!titulo 'EXPERIENCIA'*/
@@ -328,7 +320,7 @@ svg {
   }
 
   .container-cards-geral::-webkit-scrollbar-thumb {
-    background: #00f793;
+    background: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
     border-left: 4px solid #faf6ed;
   }
   .exp-text-cards {

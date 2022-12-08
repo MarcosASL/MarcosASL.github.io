@@ -372,8 +372,12 @@ svg {
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
-    width: 90%; /*600px e 410px*/
-    height: 25%;
+    width: 90%; /*600px e 410px/ 90% e 25%*/
+    height: 70%;
+  }
+  .experiencia {
+    max-height: 900px;
+    margin-bottom: 80px;
   }
   .cardContainer {
     /* overflow-x: auto; */
@@ -384,6 +388,13 @@ svg {
     max-height: 10%; */
   }
   .exp-text-cards {
+    max-height: 600px;
+    /* display: block; */
+    /* max-height: 40%; */
+    /* display: grid; */
     /* overflow-y: auto; */
+  }
+  .botao-mais-projetos {
+    display: none;
   }
 }

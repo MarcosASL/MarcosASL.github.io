@@ -365,6 +365,7 @@ svg {
   .container-cards-geral {
     /* overflow-x: auto; */
     overflow: scroll;
+    overflow-y: hidden;
     /* display: inline-block; */
     display: flex;
     flex-direction: column;

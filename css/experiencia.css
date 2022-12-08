@@ -343,7 +343,15 @@ svg {
   }
   .experiencia {
     grid-template-columns: 1fr;
-    gap: 0;
+    gap: 40px;
+  }
+  .container-cards-geral {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .exp-e-img h3 {
+    /* text-align: center; */
   }
 }
 
@@ -356,5 +364,26 @@ svg {
   .experiencia-texto {
     font-size: 1.25rem;
     font-size: clamp(1rem, 1vw, 3.5rem);
+  }
+  .container-cards-geral {
+    /* overflow-x: auto; */
+    overflow: scroll;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 90%; /*600px e 410px*/
+    height: 25%;
+  }
+  .cardContainer {
+    /* overflow-x: auto; */
+    /* max-width: 10%; */
+  }
+  .card {
+    /* max-width: 80%;
+    max-height: 10%; */
+  }
+  .exp-text-cards {
+    /* overflow-y: auto; */
   }
 }

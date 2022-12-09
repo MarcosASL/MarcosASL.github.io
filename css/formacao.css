@@ -295,6 +295,21 @@
   .cursos ul {
     gap: 0.625em;
   }
+  .img-skill-div:hover span {
+    display: none;
+  }
+  .img-skill-div:active span {
+    display: inline-block;
+    /* float: left; */
+    /* border: 1px solid #f00; */
+    opacity: 1;
+    /* -moz-opacity: 1; */
+    /* filter: alpha(opacity=100); */
+    box-shadow: 0 0 13px 5px RGBA(240, 248, 255, 1);
+    border-radius: 5px;
+    /* float: left;
+    width: 100%; */
+  }
 }
 
 /* @media (max-width: 1145px) {

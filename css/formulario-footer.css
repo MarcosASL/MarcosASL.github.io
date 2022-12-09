@@ -7,6 +7,8 @@ form {
   background-color: rgba(72, 72, 72, 0.4);
   box-shadow: 0 0 13px 3px RGBA(0, 191, 255, 1);
   overflow: hidden;
+
+  /** width: 300px; */
 }
 
 /*!balão grande de texto*/
@@ -101,4 +103,18 @@ input.message {
   margin-top: 1px;
   text-shadow: #333333 0 -1px 0;
   border: 1px solid white;
+}
+
+/*responsivo---------------------------*/
+
+@media (max-width: 800px) {
+  form {
+    width: 300px;
+  }
+  .name,
+  .email,
+  .message,
+  .btn-footer {
+    width: 240px;
+  }
 }

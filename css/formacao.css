@@ -298,7 +298,8 @@
   .img-skill-div:hover span {
     display: none;
   }
-  .img-skill-div:active span {
+  .img-skill-div:active span,
+  .img-skill-div:focus span {
     display: block;
     font-size: 8px;
     /* bottom: 6em;

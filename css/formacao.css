@@ -303,7 +303,7 @@
     font-size: 8px;
     /* bottom: 6em; */
     /* left: 110%; */
-    transform: translate(1%, -50%);
+    /* transform: translate(1%, -50%); */
     opacity: 1;
     box-shadow: 0 0 13px 5px RGBA(240, 248, 255, 1);
     border-radius: 5px;

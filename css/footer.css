@@ -37,7 +37,8 @@
   /* position: relative; */
   /* grid-column: 1 / 2; P MEUS(direitos reservados) OCUPAR DA PRIMEIRA COLUNA, ATÉ A ÚLTIMA COLUNA! */
   grid-column: 1;
-  font-size: 1.125rem;
+  /* font-size: 1.125rem; */
+  font-size: clamp(0.9rem, 1.2vw, 2.5rem);
   color: #8f8f8f;
   padding-left: 5em;
 }
@@ -89,6 +90,9 @@
   .footer-container {
     grid-template-columns: 1fr;
     gap: 40px;
+    justify-items: center;
+    /* padding: 3.75em 1.25em; */
+    padding: 3.75em 1.25em 1em;
   }
   .footer-contato li {
     font-size: 1.5rem;

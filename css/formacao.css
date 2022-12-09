@@ -203,6 +203,11 @@
     box-shadow: 0 0 13px 5px RGBA(240, 248, 255, 1);
     border-radius: 5px;
   }
+  /* span:focus {
+    color: red;
+    background: red;
+  } */
+
   .card-habilidade img {
     margin: 0em;
     margin-top: 1em;

@@ -75,9 +75,10 @@
 
 .whats img {
   display: inline-block;
+  width: clamp(3rem, 6vw, 7.5rem);
   /* border: solid 2px greenyellow; */
   /* height: 100px; */
-  width: 80px;
+  /* width: 80px; */
   /* gap: 80px; */
   margin-top: 50px;
 }
@@ -91,5 +92,12 @@
   }
   .footer-contato li {
     font-size: 1.5rem;
+  }
+
+  .container-text-footer {
+    border: solid 2px #2fa0fb;
+    justify-items: center;
+    /* grid-column: 2; */
+    grid-area: 1;
   }
 }

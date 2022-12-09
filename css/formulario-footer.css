@@ -104,9 +104,7 @@ input.message {
   text-shadow: #333333 0 -1px 0;
   border: 1px solid white;
 }
-.whats img {
-  width: clamp(3rem, 6vw, 7.5rem);
-}
+
 /*responsivo---------------------------*/
 
 @media (max-width: 800px) {
@@ -118,10 +116,5 @@ input.message {
   .message,
   .btn-footer {
     width: 240px;
-  }
-  .container-text-footer {
-    border: solid 2px #2fa0fb;
-    /* grid-column: 2; */
-    grid-area: 1;
   }
 }

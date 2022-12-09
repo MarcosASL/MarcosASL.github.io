@@ -313,6 +313,9 @@
     margin: 0em;
     margin-top: 1em;
   }
+  .container-text-footer h2 {
+    font-size: clamp(3rem, 5vw, 5.5rem);
+  }
 }
 
 /* @media (max-width: 1145px) {

@@ -195,8 +195,7 @@
   .img-skill-div:hover span {
     display: none;
   }
-  .img-skill-div:active span,
-  .img-skill-div:focus span {
+  .img-skill-div span {
     display: block;
     font-size: 0.5rem;
     opacity: 1;

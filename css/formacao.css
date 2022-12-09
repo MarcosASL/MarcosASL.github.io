@@ -166,7 +166,7 @@
   }
   .formacao-extra h3::before {
     position: initial;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .card-habilidades-container-geral h3 {
     font-size: clamp(1rem, 3vw, 5.5rem);
@@ -198,7 +198,7 @@
   .img-skill-div:active span,
   .img-skill-div:focus span {
     display: block;
-    font-size: 8px;
+    font-size: 0.5rem;
     opacity: 1;
     box-shadow: 0 0 13px 5px RGBA(240, 248, 255, 1);
     border-radius: 5px;
@@ -221,6 +221,6 @@
     align-items: center;
   }
   .cursos-idiomas {
-    grid-column: auto; /*!move os cursos p baixo*/
+    grid-column: auto; /**move os cursos p baixo*/
   }
 }

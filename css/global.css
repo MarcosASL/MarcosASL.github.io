@@ -15,6 +15,9 @@ body {
   text-decoration: none;
   list-style: none;
 }
+a:visited {
+  color: black;
+}
 
 img {
   max-width: 100%;

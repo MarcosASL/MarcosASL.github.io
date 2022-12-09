@@ -298,8 +298,7 @@
   .img-skill-div:hover span {
     display: none;
   }
-  #card-skills:active,
-  #card-skills:focus {
+  #card-skills span:active {
     display: block;
     font-size: 8px;
     /* bottom: 6em; */

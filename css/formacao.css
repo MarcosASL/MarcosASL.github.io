@@ -141,6 +141,20 @@
 }
 
 /*!----------------------------------------responsivo---------------------------------------- */
+@media (max-width: 1020px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+  }
+  .card-habilidades-container-geral {
+    gap: 2.125em;
+    align-items: center;
+  }
+  .cursos-idiomas {
+    grid-column: auto; /**move os cursos p baixo*/
+    margin-left: 3.5%;
+  }
+}
+
 @media (max-width: 800px) {
   .formacao-container {
     grid-template-columns: 1fr;
@@ -197,17 +211,7 @@
   .container-text-footer h2 {
     font-size: clamp(3rem, 5vw, 5.5rem);
   }
-}
-
-@media (max-width: 1020px) {
-  .formacao-container {
-    grid-template-columns: 1fr;
-  }
-  .card-habilidades-container-geral {
-    gap: 2.125em;
-    align-items: center;
-  }
   .cursos-idiomas {
-    grid-column: auto; /**move os cursos p baixo*/
+    margin-left: 0;
   }
 }

@@ -14,9 +14,7 @@
   font-size: clamp(2rem, 5vw, 5.5rem);
   font-weight: 100;
   letter-spacing: 2px;
-  /* line-height: 1.125; */
   margin-bottom: 0.3em;
-  /* color: #2fa0fb; */
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
   background-clip: text;
@@ -27,7 +25,6 @@
 .texto-profissao p {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: clamp(1rem, 1.5vw, 3.5rem);
-  /* color: #2fa0fb; */
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
   background-clip: text;
@@ -50,7 +47,7 @@
   box-shadow: 5px 5px 5px;
 }
 
-/*animação das cores*/
+/*!animação das cores*/
 @-webkit-keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);
@@ -69,16 +66,14 @@
   }
 }
 
-/*--------------------------------------------------------RESPONSIVO---------------------------------------------------*/
+/*-------------------------------------RESPONSIVO-----------------------------*/
 
 @media (max-width: 600px) {
   .introducao {
     grid-template-columns: 1fr;
     justify-items: center;
-    /* padding: 5em 0.5em; */
     padding: 3em;
     padding-top: 5em;
-    /* padding: 50px; */
   }
   .introducao img {
     display: none;

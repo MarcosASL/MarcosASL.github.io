@@ -38,7 +38,7 @@
   /* grid-column: 1 / 2; P MEUS(direitos reservados) OCUPAR DA PRIMEIRA COLUNA, ATÉ A ÚLTIMA COLUNA! */
   grid-column: 1;
   /* font-size: 1.125rem; */
-  font-size: clamp(0.9rem, 1.2vw, 2.5rem);
+  font-size: clamp(0.9rem, 1vw, 2.5rem);
   color: #8f8f8f;
   padding-left: 5em;
 }
@@ -99,7 +99,7 @@
   }
 
   .container-text-footer {
-    border: solid 2px #2fa0fb;
+    /* border: solid 2px #2fa0fb; */
     justify-items: center;
     /* grid-column: 2; */
     grid-area: 1;

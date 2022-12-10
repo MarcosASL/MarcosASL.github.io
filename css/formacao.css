@@ -1,7 +1,6 @@
 .formacao {
   background: #141414;
   color: #ffffff;
-  /* outline: 4px solid red; */
 }
 
 .formacao-container {
@@ -12,7 +11,6 @@
   grid-template-columns: 1fr 2fr;
   gap: 6.25em;
   position: relative;
-  /* outline: 2px solid green; */
 }
 
 /*!DETALHE em VERDE*/
@@ -30,7 +28,6 @@
 .formacao .subtitulo {
   color: #000000;
   max-width: 5ch;
-  /* outline: 2px solid orange; */
 }
 
 .cursos {
@@ -44,7 +41,6 @@
   text-transform: uppercase;
   margin-bottom: 1.875em;
   position: relative;
-  /* outline: 2px solid yellow; */
 }
 
 .formacao-extra h3::before {
@@ -70,13 +66,11 @@
   font-size: 1.125rem;
   line-height: 1.1;
   margin-bottom: 1.25em;
-  /* outline: 2px solid yellow; */
 }
 
 .formacao-extra span {
   color: #e0e0e0;
   font-size: 0.9rem;
-  /* outline: 2px solid yellow; */
 }
 
 .cursos ul {
@@ -86,7 +80,6 @@
 }
 
 .cursos-idiomas {
-  /* outline: 3px solid plum; */
   grid-column: 2;
 }
 
@@ -94,7 +87,6 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column-reverse;
-  /* outline: 3px solid red; */
   align-content: center;
   justify-content: space-around;
 }
@@ -104,13 +96,11 @@
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: flex-start;
-  /* outline: 2px solid blue; */
   gap: 0.938em;
 }
 .card-habilidade img {
   filter: invert();
   display: block;
-  /* outline: 2px solid red; */
   margin: 1em;
   box-shadow: 0 0 13px 5px RGBA(230, 110, 0, 1);
   border-radius: 5px;
@@ -147,7 +137,6 @@
 .card-habilidades-container-geral h3 {
   display: inline-block;
   font-size: clamp(1.5rem, 1.5vw, 5.5rem);
-  /* border: 1px solid yellow; */
   bottom: 80em;
 }
 
@@ -176,8 +165,7 @@
     width: 10%;
   }
   .card-habilidade {
-    /* margin: 0 2.62em;  */
-    /*!gambiarra p afastar o card da direita*/
+    /*!afastar o card da direita*/
     margin-right: 2em;
   }
   .cursos {
@@ -192,9 +180,7 @@
   .cursos ul {
     gap: 0.625em;
   }
-  /* .img-skill-div:hover span {
-    display: none;
-  } */
+
   .img-skill-div span {
     display: block;
     font-size: 0.4rem;

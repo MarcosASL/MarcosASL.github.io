@@ -6,7 +6,6 @@
   display: grid;
   grid-template-columns: 1fr 2fr; /*aqui é 2fr para ficar alinhado ao texto de cima de h1*/
   gap: 6.25em;
-  /* outline: 2px solid purple; */
 }
 
 .experiencia .subtitulo {
@@ -41,7 +40,6 @@ svg {
   min-height: 25em;
   margin: 0.25em;
   perspective: 1000px;
-  /* outline: 2px solid red; */
 }
 
 .active {

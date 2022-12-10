@@ -4,7 +4,7 @@
   padding: 0.313em 1.25em;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 2fr; /*aqui é 2fr para ficar alinhado ao texto de cima de h1*/
+  grid-template-columns: 1fr 2fr;
   gap: 6.25em;
 }
 
@@ -299,7 +299,6 @@ svg {
     margin-bottom: 7em;
   }
   .experiencia-texto {
-    /* font-size: 1.25rem; */
     font-size: clamp(1rem, 1vw, 3.5rem);
   }
   .container-cards-geral {

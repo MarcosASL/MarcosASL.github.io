@@ -9,7 +9,6 @@
 .quem-sou-texto h2 {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   display: inline-block;
-  /* font-size: 5rem; */
   font-size: clamp(3rem, 5vw, 5.5rem);
   text-transform: uppercase;
   word-break: break-all;
@@ -21,10 +20,7 @@
 }
 
 .quem-sou-texto p {
-  /* margin: 20px; */
-  /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
   margin-top: 1.25em;
-  /* font-size: 1.5rem; */
   font-size: clamp(1rem, 1.5vw, 3.5rem);
   line-height: 1.33;
   margin-bottom: 1.75em;
@@ -32,15 +28,13 @@
   color: #525252;
 }
 
-/*ICONES REDES SOCIAIS*/
-
+/*!ICONES REDES SOCIAIS*/
 .enviar-email-button {
   background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
   border: solid 2px black;
   border-radius: 5px;
   display: inline-block;
   padding: 0.625em;
-  /* font-size: 18px; */
   text-transform: uppercase;
   font-weight: bold;
   margin: 0.938em 6.25em;
@@ -52,7 +46,6 @@
   box-shadow: 5px 5px 5px;
 }
 .icon {
-  /* border: solid 2px red; */
   float: left;
   position: relative;
   width: 19%;
@@ -126,7 +119,6 @@
 
 /*RESPONSIVO-----------------------------------------------------------*/
 @media all and (min-width: 40px) {
-  /*640*/
   .icon {
     width: 9%; /*9%*/
     padding-bottom: 9%; /*9%*/

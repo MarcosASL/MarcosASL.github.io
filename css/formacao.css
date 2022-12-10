@@ -192,15 +192,16 @@
   .cursos ul {
     gap: 0.625em;
   }
-  .img-skill-div:hover span {
+  /* .img-skill-div:hover span {
     display: none;
-  }
+  } */
   .img-skill-div span {
     display: block;
     font-size: 0.4rem;
     opacity: 1;
     box-shadow: 0 0 13px 5px RGBA(240, 248, 255, 1);
     border-radius: 5px;
+    bottom: 80%;
   }
 
   .card-habilidade img {

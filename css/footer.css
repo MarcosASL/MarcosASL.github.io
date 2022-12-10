@@ -9,35 +9,11 @@
   margin: 0 auto;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
-  /* align-items: center; */
-  /* row-gap: 10px; */
-  /* align-content: end; */
   justify-items: start;
 }
 
-/* .footer-texto {
-  font-size: 1.5rem;
-  line-height: 1.33;
-  color: #cccccc;
-} */
-
-/* .footer-contato li {
-  font-weight: bold;
-  font-size: 2.25rem;
-  line-height: 1.1;
-  color: #ffffffff;
-  margin-bottom: 30px;
-}
-
-.footer-contato li a {
-  color: #ffffffff;
-} */
-
 .footer-copy {
-  /* position: relative; */
-  /* grid-column: 1 / 2; P MEUS(direitos reservados) OCUPAR DA PRIMEIRA COLUNA, ATÉ A ÚLTIMA COLUNA! */
   grid-column: 1;
-  /* font-size: 1.125rem; */
   font-size: clamp(0.9rem, 1vw, 2.5rem);
   color: #8f8f8f;
   padding-left: 5em;
@@ -45,53 +21,34 @@
 
 .container-text-footer h2 {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  /* align-items: start; */
-  /* display: inline-block; */
-  /* font-size: 5.5rem; */
   font-size: clamp(3rem, 5vw, 5.5rem);
   text-transform: uppercase;
   word-break: break-all;
-  /* margin-top: -80px; */
   background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* border: solid 2px red; */
-  /* padding: 20px; */
   padding-bottom: 20px;
-  /* justify-self: center; */
-  /* align-content: end; */
-  /* margin-top: -20%; */
-  /* gap: 80px; */
 }
 .container-text-footer > a {
   display: block;
-  /* border: solid 2px red; */
   color: azure;
-  /* font-size: 2.5rem; */
   font-size: clamp(1.5rem, 2vw, 3.5rem);
-  /* padding-bottom: 30px; */
-  /* gap: 80px; */
 }
 
 .whats img {
   display: inline-block;
   width: clamp(3rem, 6vw, 7.5rem);
-  /* border: solid 2px greenyellow; */
-  /* height: 100px; */
-  /* width: 80px; */
-  /* gap: 80px; */
   margin-top: 50px;
 }
 
-/* -------------------------------------------------RESPONSIVO--------------------------------------------------------- */
+/* --------------------------RESPONSIVO------------------------------------------ */
 
 @media (max-width: 800px) {
   .footer-container {
     grid-template-columns: 1fr;
     gap: 40px;
     justify-items: center;
-    /* padding: 3.75em 1.25em; */
     padding: 3.75em 1.25em 1em;
   }
   .footer-contato li {
@@ -99,9 +56,7 @@
   }
 
   .container-text-footer {
-    /* border: solid 2px #2fa0fb; */
     justify-items: center;
-    /* grid-column: 2; */
     grid-area: 1;
   }
 }

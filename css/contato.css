@@ -66,6 +66,6 @@ footer h3 {
 body {
   background-image: url(../img/wave2.svg);
   background-repeat: no-repeat;
-  background-attachment: fixed; /*n rola a pagina*/
+  /* background-attachment: fixed;  */
   background-position: bottom;
 }

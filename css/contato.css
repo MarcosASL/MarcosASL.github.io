@@ -1,3 +1,10 @@
+html {
+  background-image: url(../img/wave2.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -40,9 +47,11 @@
 footer h3 {
   display: flex;
   justify-content: space-evenly;
-  font-size: 0.8rem;
+  /* font-size: 0.8rem; */
+  font-size: clamp(0.7rem, 2.94vw, 1.2rem);
   font-weight: 100;
-  padding-top: 4.8em;
+  /* padding-top: 4.8em; */
+  transform: translateY(90px);
 }
 .container-contato span {
   font-size: 3rem;
@@ -61,11 +70,4 @@ footer h3 {
 .container-contato a:hover {
   transition: all 0.3s ease;
   box-shadow: 5px 5px 5px;
-}
-
-body {
-  background-image: url(../img/wave2.svg);
-  background-repeat: no-repeat;
-  /* background-attachment: fixed;  */
-  background-position: bottom;
 }

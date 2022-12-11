@@ -14,7 +14,7 @@
 
 .footer-copy {
   grid-column: 1;
-  font-size: clamp(0.9rem, 1vw, 2.5rem);
+  font-size: clamp(0.7rem, 1vw, 2.5rem);
   color: #8f8f8f;
   padding-left: 5em;
 }
@@ -54,9 +54,11 @@
   .footer-contato li {
     font-size: 1.5rem;
   }
-
   .container-text-footer {
     justify-items: center;
     grid-area: 1;
+  }
+  .footer-copy {
+    padding-left: 0em;
   }
 }

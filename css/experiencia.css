@@ -9,7 +9,8 @@
 }
 
 .experiencia .subtitulo {
-  color: #e0e0e0;
+  color: var(--cor-text-c2);
+  color: var(--cor-detail-c2);
 }
 
 .experiencia-texto {

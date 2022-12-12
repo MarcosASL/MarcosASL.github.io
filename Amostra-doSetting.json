@@ -1,0 +1,42 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontSize": 17,
+  "editor.lineHeight": 1.75,
+  "editor.tabSize": 2,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.wordWrap": "on",
+  "editor.minimap.renderCharacters": false,
+  "telemetry.telemetryLevel": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "breadcrumbs.filePath": "off",
+  "outline.icons": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.formatOnSave": true,
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 0,
+  "html.autoClosingTags": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.bracketPairColorization.enabled": false,
+  "color-highlight.markerType": "dot-before",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "git.confirmSync": false,
+  "sync.gist": "588931d62bee87b27b88dde7d9c973fe",
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.language": "en,pt-BR",
+  "cSpell.userWords": [
+    "-webkit-background-clip",
+    "introducao",
+    "parametro",
+    "preco",
+    "sidenav",
+    "wght"
+  ],
+  "vsicons.dontShowNewVersionMessage": true,
+  "git.autofetch": true,
+  "editor.colorDecorators": false
+}

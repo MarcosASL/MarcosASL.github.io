@@ -38,7 +38,7 @@
   text-transform: uppercase;
   font-weight: bold;
   margin: 0.938em 2.25em;
-  color: black;
+  color: var(--cor-black-0);
 }
 
 .enviar-email-button:hover {
@@ -65,14 +65,14 @@
   height: 100%;
   border: 0;
   border-radius: 0.425em;
-  background-color: #fff;
+  background-color: var(--cor-branca1);
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center center;
   transition: all 0.2s ease-out;
 }
 .icon a:hover {
-  background-color: #222;
+  background-color: var(--cor-background);
   background-size: 0%;
   transition: all 0.2s ease-out;
 }
@@ -82,7 +82,7 @@
   top: 50%;
   width: 100%;
   margin-top: -7px;
-  color: #fff;
+  color: var(--cor-branca1);
   /* font-size: 13px; */
   font-size: clamp(0.5rem, 0.7vw, 3.5rem);
   text-align: center;

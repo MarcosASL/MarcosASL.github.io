@@ -58,14 +58,14 @@ footer h3 {
 }
 .container-contato a {
   background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
-  border: solid 2px black;
+  border: solid 2px #000000;
   border-radius: 5px;
   display: inline-block;
   padding: 0.62em;
   text-transform: uppercase;
   font-weight: bold;
   margin: 15px 100px;
-  color: black;
+  color: #000000;
 }
 .container-contato a:hover {
   transition: all 0.3s ease;

@@ -33,7 +33,7 @@
   font-size: 1.125rem;
   font-weight: bold;
   padding: 0.62em 1.25rem;
-  color: #ffffff;
+  color: var(--cor-branca1);
 }
 
 .logo {
@@ -72,7 +72,7 @@
   position: relative;
   z-index: 10;
 }
-/*EFEITO ao click no botao*/
+/**EFEITO ao click no botao*/
 .nav__link:active {
   transform: translateY(3px);
 }

@@ -17,11 +17,7 @@
   line-height: 1.33;
   margin-bottom: 60px;
   max-width: 55ch;
-  color: #525252;
-}
-
-.experiencia-texto strong {
-  color: #141414;
+  color: var(--cor-text-c1);
 }
 
 /*detalhe seta do button yellow do card*/

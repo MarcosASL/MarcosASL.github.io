@@ -1,3 +1,20 @@
+:root {
+  --cor-primaria: #2fa0fb;
+  --cor-secundaria: #00f793;
+  --cor-gradiente: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
+  --cor-shadow-blue: #0090f7;
+  --cor-b-header: rgba(20, 20, 20, 0.68);
+  --cor-branca1: #ffffff;
+  --cor-text-c1: #525252;
+  --cor-text-c2:color: #e0e0e0;
+  --cor-black-0:#000000;
+  --cor-background: #141414;
+  --cor-detal-g:#A3F223
+  --cor-detal-g2:#CCF235
+  --cor-yellow-b:#ffc324;
+  --cor-ye-b-gradient:linear-gradient(-90deg, #ffb714, #ffe579);
+}
+
 body {
   font-family: "Fira Sans", Arial, sans-serif;
   color: #141414;

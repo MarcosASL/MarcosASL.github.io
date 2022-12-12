@@ -15,6 +15,15 @@
   --cor-ye-b-gradient:linear-gradient(-90deg, #ffb714, #ffe579);
 }
 
+/*! modo escuro*/
+:root {
+
+}
+@media (preferencia-tema:dark) {
+
+}
+/*! modo escuro*/
+
 body {
   font-family: "Fira Sans", Arial, sans-serif;
   color: #141414;

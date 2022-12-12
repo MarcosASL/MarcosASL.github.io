@@ -103,7 +103,7 @@ svg {
   background-size: cover;
   border-radius: 5px 5px 0 0;
   width: 100%;
-  height: 350px; /*original são 250px*/
+  height: 350px; /* 250px*/
 }
 .front .img1 {
   background-image: url(../img/bikcraft-img.png);
@@ -133,7 +133,7 @@ svg {
   margin-top: -2em;
 }
 .lista-card-descri li:last-child {
-  color: #ffb714;
+  color: var(--cor-yellow-b2);
 }
 /*BOTÃO DO GITHUB NO CARD FIM*/
 */ .back {
@@ -164,7 +164,7 @@ svg {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffc324;
+  background-color: var(--cor-yellow-b);
   background-image: linear-gradient(-90deg, #ffb714, #ffe579);
   border-radius: 5px;
   cursor: pointer;
@@ -196,7 +196,7 @@ svg {
   font-size: clamp(3rem, 4vw, 5.5rem);
   text-transform: uppercase;
   word-break: break-all;
-  color: #2fa0fb;
+  color: var(--cor-primaria);
   background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -221,13 +221,12 @@ svg {
 
 .botao-mais-projetos > a {
   display: block;
-  background-color: #0090f7;
+  background-color: var(--cor-primaria);
   transition: background-color 0.5s linear, color 0.5s linear;
   padding: 0.625em 1.25em;
-  /* border: solid 2px red; */
 }
 .botao-mais-projetos a:hover {
-  background-color: #0dd;
+  background-color: var(--cor-shadow-blue);
 }
 .botao-mais-projetos a:focus {
   outline: none;

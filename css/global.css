@@ -7,20 +7,19 @@
   --cor-branca1: #ffffff;
   --cor-text-c1: #525252;
   --cor-text-c2: #e0e0e0;
-  --cor-black-0:#000000;
+  --cor-black-0: #000000;
   --cor-background: #141414;
-  --cor-detal-g:#A3F223
-  --cor-detal-g2:#CCF235
-  --cor-yellow-b:#ffc324;
-  --cor-ye-b-gradient:linear-gradient(-90deg, #ffb714, #ffe579);
+  --cor-detal-g: #a3f223;
+  --cor-detal-g2: #ccf235;
+  --cor-yellow-b: #ffc324;
+  --cor-yellow-b2: #ffb714;
+  --cor-ye-b-gradient: linear-gradient(-90deg, #ffb714, #ffe579);
 }
 
 /*! modo escuro*/
 :root {
-
 }
-@media (preferencia-tema:dark) {
-
+@media (preferencia-tema: dark) {
 }
 /*! modo escuro*/
 

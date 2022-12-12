@@ -1,5 +1,5 @@
 .footer {
-  background: #000000;
+  background: var(--cor-black-0);
 }
 
 .footer-container {
@@ -15,7 +15,7 @@
 .footer-copy {
   grid-column: 1;
   font-size: clamp(0.7rem, 1vw, 2.5rem);
-  color: #8f8f8f;
+  color: var(--cor-text-c1);
   padding-left: 5em;
 }
 
@@ -32,7 +32,7 @@
 }
 .container-text-footer > a {
   display: block;
-  color: azure;
+  color: var(--cor-text-c2);
   font-size: clamp(1.5rem, 2vw, 3.5rem);
 }
 

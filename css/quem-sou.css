@@ -1,3 +1,6 @@
+.quem-sou {
+  background: var(--cor-background-b2);
+}
 .quem-sou-container-geral {
   display: grid;
   max-width: 1200px;
@@ -25,20 +28,21 @@
   line-height: 1.33;
   margin-bottom: 1.75em;
   max-width: 650px;
-  color: #525252;
+  color: var(--cor-text-c1);
 }
 
 /*!ICONES REDES SOCIAIS*/
 .enviar-email-button {
   background-image: -webkit-linear-gradient(0deg, #2fa0fb 3%, #00f793 99%);
-  border: solid 2px black;
+  /* border: solid 2px black; */
   border-radius: 5px;
   display: inline-block;
   padding: 0.625em;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 545;
   margin: 0.938em 2.25em;
-  color: var(--cor-black-0);
+  /* color: var(--cor-black-0); */
+  font-size: 1.1rem;
 }
 
 .enviar-email-button:hover {

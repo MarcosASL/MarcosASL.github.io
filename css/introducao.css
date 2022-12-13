@@ -6,6 +6,7 @@
   grid-template-columns: 1fr 2fr;
   gap: 6.25em;
   align-items: center;
+  /* background: var(--cor-background-b); */
 }
 
 /*efeito gradiente no texto*/

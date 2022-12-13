@@ -5,6 +5,8 @@
   --cor-shadow-blue: #0090f7;
   --cor-b-header: rgba(20, 20, 20, 0.68);
   --cor-branca1: #ffffff;
+  --cor-background-b: #ffffffff;
+  --cor-background-b2: #ffffff;
   --cor-text-c1: #525252;
   --cor-text-c2: #e0e0e0;
   --cor-text-c3: #8f8f8f;
@@ -18,16 +20,36 @@
 }
 
 /*! modo escuro*/
-:root {
+.dark-mode {
+  --cor-background-b2: #141414;
+  --cor-text-c1: white;
+  --cor-background-b: #000000;
 }
-@media (preferencia-tema: dark) {
-}
-/*! modo escuro*/
+/*! modo escuro---------------------------------------*/
+
+/** efeitos p add mais p frente no modo dark*/
+/* :root {
+  --cor-background-b2: #141414;
+  --cor-text-c1: white;
+  --cor-background-b: #000000;
+} */
+
+/* @media (body: dark) {
+  .icon a:hover {
+    background-color: none;
+  }
+  a:visited {
+    color: none;
+  }
+  .experiencia {
+    padding: 0.313em 1.25em;
+  }
+} */
 
 body {
   font-family: "Fira Sans", Arial, sans-serif;
-  color: #141414;
-
+  color: var(--cor-background);
+  background: var(--cor-background-b);
   font-size: 100%;
   list-style-type: none;
 }

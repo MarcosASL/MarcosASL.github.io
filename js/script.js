@@ -15,7 +15,7 @@ chk.addEventListener("change", () => {
   document.body.classList.toggle("dark-mode");
 });
 
-/*nav hamburguer responsivo */
+/*nav burguer responsivo */
 function clickMenu() {
   if (navegacaolista.style.display == "block") {
     navegacaolista.style.display = "none";

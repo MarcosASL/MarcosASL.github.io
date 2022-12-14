@@ -143,6 +143,9 @@
   .img-perfil img {
     display: none;
   }
+  .quem-sou-texto h2 {
+    margin-top: 0;
+  }
 }
 @media (max-width: 1080px) {
   .enviar-email-button {

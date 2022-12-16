@@ -236,11 +236,11 @@ svg {
   -webkit-animation: shadowFloat 1.2s linear alternate infinite;
   animation: shadowFloat 1.2s linear alternate infinite;
   border-radius: 5px;
-  color: #fff;
+  /* color: #fff; */
   font-size: 18px;
   padding: 20px 40px;
   text-transform: uppercase;
-  text-shadow: 0 1px 1px #00aaaa;
+  text-shadow: 0 1px 1px #000;
 }
 
 @-webkit-keyframes shadowFloat {

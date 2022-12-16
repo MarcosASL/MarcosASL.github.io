@@ -243,24 +243,24 @@ svg {
   text-shadow: 0 1px 1px #000;
 }
 
-/* @-webkit-keyframes shadowFloat {
+@-webkit-keyframes shadowFloat {
   0% {
-    box-shadow: 0 20px 40px #c7c7c7;
-    transform: translateY(-3px);
+    box-shadow: 0 20px 40px #2fa0fb;
+    transform: translateY(-10px);
   }
   100% {
-    box-shadow: 0 10px 10px #bababa;
+    box-shadow: 0 10px 10px #00f793;
     transform: translateY(3px);
   }
-} */
+}
 
 @keyframes shadowFloat {
   0% {
-    box-shadow: 0 20px 40px red;
-    transform: translateY(-3px);
+    box-shadow: 0 20px 40px #2fa0fb;
+    transform: translateY(-10px);
   }
   100% {
-    box-shadow: 0 10px 10px #bababa;
+    box-shadow: 0 10px 10px #00f793;
     transform: translateY(3px);
   }
 }

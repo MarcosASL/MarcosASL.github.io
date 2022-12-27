@@ -29,6 +29,8 @@ function clickMenu() {
 // function ativarLink(link) {
 //   const href = link.href;
 //   const url = document.location.href;
+//   console.log(href);
+//   console.log(url);
 //   if (href === url) {
 //     link.style.backgroundColor = "black";
 //     link.style.color = "white";

@@ -24,16 +24,7 @@ function clickMenu() {
   }
 }
 
-/*SELECTOR DE LINKS ON*/
-// const links = document.querySelectorAll("nav a");
-// function ativarLink(link) {
-//   const href = link.href;
-//   const url = document.location.href;
-//   console.log(href);
-//   console.log(url);
-//   if (href === url) {
-//     link.style.backgroundColor = "black";
-//     link.style.color = "white";
-//   }
-// }
-// links.forEach(ativarLink);
+//ANIMAÇÃO
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}

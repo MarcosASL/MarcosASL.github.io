@@ -1,56 +1,52 @@
-<!-- #📚 Curriculo responsivo
+<!-- # 💻 Portfólio - Marcos Antonio
 
-Um modelo de curriculo responsivo
-que será constantemente atualizado.
  -->
  
- 
-
-# curriculo responsivo
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/MarcosASL/MarcosASL.github.io/blob/main/LICENCE) 
 
 # Sobre o projeto
 
 
 
-Você pode acessar o projeto clicando  [aqui.](https://marcosasl.github.io/) 👈
+Você pode acessar o projeto completo clicando  [aqui.](https://marcosasl.github.io/) 👈
 
-O projeto é um curriculo responsivo que criei durante as aulas de Front End do curso Origamid que estou cursando.<br>
-algumas funcionalidades ainda estão sendo implementadas.
+## 📚 Seções
+O site é composto por cinco seções:
 
-## Layout mobile
-<img src="https://github.com/MarcosASL/assets/blob/main/mobile1.jpg" width="270" height="480"> <img src="https://github.com/MarcosASL/assets/blob/main/mobile2.jpg" width="270" height="480"> <img src="https://github.com/MarcosASL/assets/blob/main/mobile4.jpg" width="270" height="480">
+- Home: Nele temos uma breve apresentação;
+- Quem sou: Nessa seção tenho uma descrição dizendo um pouco sobre quem sou;
+- Experiência: Aborda alguns projetos finalizados e outros em andamento com link direto para os respectivos códigos no GitHub;
+- Habilidades: Apresenta uma série de cards representando cada uma das tecnologias que domino e outras que estudo;
+- Contato: Exibe uma tela com um formulário de contato, onde recebo qualquer mensagem enviada por meio dele e também outas formas;
+
+
+#### 💼 Tecnologias utilizadas
+Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+
+- Figma
+- HTML;
+- CSS;
+- JavaScript;
+
+
 
 ## Layout web
-<img src="https://github.com/MarcosASL/assets/blob/main/web1.jpg" width="800" height="450">
 
-<img src="https://github.com/MarcosASL/assets/blob/main/web2.jpg" width="800" height="450">
+<img src="https://github.com/MarcosASL/assets/blob/main/web-white.png" width="255" height="655"> - <img src="https://github.com/MarcosASL/assets/blob/main/web-black.png?raw=true" width="255" height="655">
 
-# Tecnologias utilizadas
-- HTML / CSS / JS (em breve) 
-<!-- 
-# Como executar o projeto
+## Layout mobile
+
+<img src="https://github.com/MarcosASL/assets/blob/main/mobile-white.png?raw=true" width="82" height="657"> -
+<img src="https://github.com/MarcosASL/assets/blob/main/mobile-black.png?raw=true" width="82" height="657">
 
 
-## Front end web
-Pré-requisitos: npm / yarn
 
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
 
-# entrar na pasta do projeto front end web
-cd front-web
 
-# instalar dependências
-yarn install
 
-# executar o projeto
-yarn start
-``` -->
 
-# Autor
+## :adult: Autor
 
-Marcos Antonio da Silva Lima
+:point_right: Marcos Antonio da Silva Lima
+
 
 

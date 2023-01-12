@@ -24,10 +24,10 @@
 
 .quem-sou-texto p {
   margin-top: 1.25em;
-  font-size: clamp(1rem, 1.5vw, 3.5rem);
+  font-size: clamp(1rem, 1.2vw, 3.5rem);
   line-height: 1.33;
   margin-bottom: 1.75em;
-  max-width: 650px;
+  max-width: 700px;
   color: var(--cor-text-c1);
 }
 

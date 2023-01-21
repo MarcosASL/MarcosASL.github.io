@@ -1,4 +1,4 @@
-/*verso card */
+//TODO verso card
 const cards = document.querySelectorAll(".card");
 function transition() {
   if (this.classList.contains("active")) {
@@ -9,13 +9,13 @@ function transition() {
 }
 cards.forEach((card) => card.addEventListener("click", transition));
 
-/*! BOTÃO DARK */
+//TODO ! BOTÃO DARK
 const chk = document.getElementById("chk");
 chk.addEventListener("change", () => {
   document.body.classList.toggle("dark-mode");
 });
 
-/*nav burguer responsivo */
+//TODO nav burguer responsivo
 function clickMenu() {
   if (navegacaolista.style.display == "block") {
     navegacaolista.style.display = "none";
@@ -24,7 +24,7 @@ function clickMenu() {
   }
 }
 
-//ANIMAÇÃO
+//TODO ANIMAÇÃO
 if (window.SimpleAnime) {
   new SimpleAnime();
 }
